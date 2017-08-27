@@ -23,7 +23,7 @@ $ aws s3 cp s3://awskrug-novemberde s3://<USER_BUCKET_NAME> --recursive
 버킷을 확인하면 아래와 같은 두 파일이 있을 것이다.
 
 - 전국무료와이파이표준데이터.xls
-- 전국무료와이파이표준데이터.csv
+- csv/전국무료와이파이표준데이터.csv
 
 우리는 CSV파일을 통해 Athena로 쿼리를 던져 결과를 받아볼 것이다.
 
