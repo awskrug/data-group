@@ -106,10 +106,19 @@ SELECT * FROM awskrug.free_wifi_standard_data LIMIT 100;
 
 
 ## 고찰
-- 인코딩 문제
-  - 공공데이터 포털에서 제공해주는 CSV파일이 EUC-KR로 되어 있었음
-  - 별도로 EUC-KR에서 UTF-8로 수정하여 해결
-  - 변환작업하는 OS가 Window일 경우 줄 시퀀스가 CRLF로 되어 있다면 LF로 바꾸어 저장할 것(Linux기반 OS와 Windows의 줄바꿈의 기준이 다르기 때문)
+- Athena
+  - 인코딩 문제
+    - 공공데이터 포털에서 제공해주는 CSV파일이 EUC-KR로 되어 있었음
+    - 별도로 EUC-KR에서 UTF-8로 수정하여 해결
+    - 변환작업하는 OS가 Window일 경우 줄 시퀀스가 CRLF로 되어 있다면 LF로 바꾸어 저장할 것(Linux기반 OS와 Windows의 줄바꿈의 기준이 다르기 때문)
+- QuickSight를 사용하면서 느낀점
+  - 장점
+    - 별도로 BI툴을 운영하거나 관리할 필요가 없음
+    - 튜토리얼만 따라한다면 진입장벽이 높지 않음
+  - 단점
+    - 한글화된 문서가 거의 존재하지 않음
+    - 실제로 기업에서 사용한 사례가 많지 않기 때문에 도입하기가 쉽지 않음(보통은 Excel을 선호하기 때문에)
+
 
 ## 사례 모음
 - Athena
