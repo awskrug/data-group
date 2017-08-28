@@ -96,18 +96,35 @@ WITH SERDEPROPERTIES (
 TBLPROPERTIES ('has_encrypted_data'='false');
 ```
 
+제대로 생성했다면 아래와 같은 쿼리를 실행했을 때 결과가 나와야 한다.
+
+```sql
+SELECT * FROM awskrug.free_wifi_standard_data LIMIT 100;
+```
+
+## QuickSight로 확인하기
+
 
 ## 고찰
 - 인코딩 문제
   - 공공데이터 포털에서 제공해주는 CSV파일이 EUC-KR로 되어 있었음
   - 별도로 EUC-KR에서 UTF-8로 수정하여 해결
-  - 변환작업하는 OS가 Window일 경우 줄 시퀀스가 CRLF로 되어 있다면 LF로 바꾸어 저장할 것
+  - 변환작업하는 OS가 Window일 경우 줄 시퀀스가 CRLF로 되어 있다면 LF로 바꾸어 저장할 것(Linux기반 OS와 Windows의 줄바꿈의 기준이 다르기 때문)
 
 ## 사례 모음
+- Athena
+  - [https://aws.amazon.com/ko/blogs/korea/category/amazon-athena/](https://aws.amazon.com/ko/blogs/korea/category/amazon-athena/)
+  - [https://aws.amazon.com/ko/blogs/korea/top-10-performance-tuning-tips-for-amazon-athena/](https://aws.amazon.com/ko/blogs/korea/top-10-performance-tuning-tips-for-amazon-athena/)
 
+## 샘플
+- Athena
+  - [https://github.com/awskrug/athena-workshop](https://github.com/awskrug/athena-workshop)
+- QuickSight
+  - [https://aws.amazon.com/ko/blogs/aws/category/amazon-quicksight/](https://aws.amazon.com/ko/blogs/aws/category/amazon-quicksight/)
 
 
 ## References
 - [https://prestodb.io/](https://prestodb.io/)
 - [http://docs.aws.amazon.com/athena/latest/ug/json.html](http://docs.aws.amazon.com/athena/latest/ug/json.html)
 - [https://aws.amazon.com/ko/blogs/korea/amazon-quicksight-fast-easy-to-use-business-intelligence-for-big-data-at-110th-the-cost-of-traditional-solutions/](https://aws.amazon.com/ko/blogs/korea/amazon-quicksight-fast-easy-to-use-business-intelligence-for-big-data-at-110th-the-cost-of-traditional-solutions/)
+- [https://www.slideshare.net/awskorea/6-aws-bigdata-architecture-pattern-and-good-cases](https://www.slideshare.net/awskorea/6-aws-bigdata-architecture-pattern-and-good-cases)
