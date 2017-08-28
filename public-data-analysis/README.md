@@ -106,11 +106,15 @@ SELECT * FROM awskrug.free_wifi_standard_data LIMIT 100;
 
 
 ## 고찰
-- Athena
+- Athena & 공공데이터 포털
   - 인코딩 문제
     - 공공데이터 포털에서 제공해주는 CSV파일이 EUC-KR로 되어 있었음
     - 별도로 EUC-KR에서 UTF-8로 수정하여 해결
     - 변환작업하는 OS가 Window일 경우 줄 시퀀스가 CRLF로 되어 있다면 LF로 바꾸어 저장할 것(Linux기반 OS와 Windows의 줄바꿈의 기준이 다르기 때문)
+  - 공공데이터 포털의 대부분은 XML형식으로 이루어져 있기 때문에 만약 XML의 파일을 사용한다면 별도로 데이터 변환작업이 필요함
+    - Python: [https://github.com/hay/xml2json](https://github.com/hay/xml2json)
+    - Javascript: [https://github.com/Leonidas-from-XIV/node-xml2js](https://github.com/Leonidas-from-XIV/node-xml2js)
+  - 공공데이터 포털의 데이터는 각 시군구 데이터의 형식이 다를 경우도 있기 때문에 전국적인 데이터로 사용하기 위해서는 전처리 작업이 필요함
 - QuickSight를 사용하면서 느낀점
   - 장점
     - 별도로 BI툴을 운영하거나 관리할 필요가 없음
