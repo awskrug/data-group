@@ -55,6 +55,7 @@ $ aws s3 cp s3://awskrug-workshop-publicdata s3://<USER_BUCKET_NAME> --recursive
 
 
 ## Athena에서 테이블 생성하기
+(여기서부터는 N.virginia 리전에서 진행합니다)
 Athena에서 S3저장소에 있는 CSV파일에 대해서 쿼리하기 위해서는 파일 형식에 대해 Athena가 이해하고 있어야 가능하다.
 
 이를 위해서는 DBMS처럼 Athena에 database를 생성하고 table을 생성해야 한다.
@@ -155,7 +156,11 @@ SELECT * FROM awskrug.free_wifi_standard_data LIMIT 100;
     - 실제로 기업에서 사용한 사례가 많지 않기 때문에 도입하기가 쉽지 않음(보통은 Excel을 선호하기 때문에)
     - Suggested를 보면 추천되는 모형이 있지만 정규화가 제대로 되어있지 않은 데이터에 대해서는 쓸모가 없음(별도로 필터링이 필요)
 
-
+- Cross-Region
+  - S3-Athena는 다른 리전간에도 사용 가능. (현재 서울리전에서 가장 가까운 곳은 도쿄리전)
+  - Athena-Quicksight는 같은 리전에서만 사용 가능.
+  
+  
 ## 사례 모음
 - Athena
   - [https://aws.amazon.com/ko/blogs/korea/category/amazon-athena/](https://aws.amazon.com/ko/blogs/korea/category/amazon-athena/)
