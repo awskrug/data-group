@@ -92,7 +92,7 @@ WITH SERDEPROPERTIES (
   'serialization.format' = ',',
   'field.delim' = ',',
   "serialization.encoding"='utf-8'
-) LOCATION 's3://awskrug-novemberde/csv/'
+) LOCATION 's3://<USER_BUCKET_NAME>/csv/'
 TBLPROPERTIES ('has_encrypted_data'='false');
 ```
 
