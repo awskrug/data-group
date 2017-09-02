@@ -102,7 +102,7 @@ TBLPROPERTIES ('has_encrypted_data'='false');
 SELECT * FROM awskrug.free_wifi_standard_data LIMIT 100;
 ```
 
-## QuickSight로 확인하기
+## QuickSight - Athena 로 확인하기
 
 1. QuickSight 열기
 2. Manage Data 클릭
@@ -118,9 +118,19 @@ SELECT * FROM awskrug.free_wifi_standard_data LIMIT 100;
 |---|---|
 | - 시도별 와이파이 설치| - 시도별 와이파이 서비스 제공업체|
 
+상단의 Capture 버튼을 동해 스토리를 생성할 수 있다.
 
+## QuickSight - uploaded file 로 확인하기
 
+2. Manage Data 클릭
+3. New Data Set 클릭
+4. Upload a file 클릭
+5. S3에 있는 CSV파일 다운로드 후 QuickSight에 업로드
+6. 데이터 소스명을 입력 awskrug-upload
+6. Create Data Source 클릭
+7. Create Analysis로 전국무료와이파이표준데이터.csv 생성
 
+이전과 같은 과정 반복하여 결과 확인
 
 ## 고찰
 - Athena & 공공데이터 포털
@@ -138,9 +148,12 @@ SELECT * FROM awskrug.free_wifi_standard_data LIMIT 100;
   - 장점
     - 별도로 BI툴을 운영하거나 관리할 필요가 없음
     - 튜토리얼만 따라한다면 진입장벽이 높지 않음
+    - Filter 기능을 통해 다양한 쿼리를 시각적으로 구현할 수 있음
+    - 스토리로 저장할 수 있기 때문에 차트 관리에 유리
   - 단점
     - 한글화된 문서가 거의 존재하지 않음
     - 실제로 기업에서 사용한 사례가 많지 않기 때문에 도입하기가 쉽지 않음(보통은 Excel을 선호하기 때문에)
+    - Suggested를 보면 추천되는 모형이 있지만 정규화가 제대로 되어있지 않은 데이터에 대해서는 쓸모가 없음(별도로 필터링이 필요)
 
 
 ## 사례 모음
