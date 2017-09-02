@@ -43,7 +43,7 @@
 없다면 아래와 같은 명령어로 자신의 S3 bucket에 복사해와야 한다.
 
 ```bash
-$ aws s3 cp s3://awskrug-novemberde s3://<USER_BUCKET_NAME> --recursive
+$ aws s3 cp s3://awskrug-workshop-publicdata s3://<USER_BUCKET_NAME> --recursive
 ```
 
 버킷을 확인하면 아래와 같은 두 파일이 있을 것이다.
