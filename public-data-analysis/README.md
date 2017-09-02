@@ -104,6 +104,23 @@ SELECT * FROM awskrug.free_wifi_standard_data LIMIT 100;
 
 ## QuickSight로 확인하기
 
+1. QuickSight 열기
+2. Manage Data 클릭
+3. New Data Set 클릭
+4. Athena를 데이터 소스로 선택
+5. 데이터 소스명을 입력 awskrug
+6. Create Data Source 클릭
+7. awskrug database 를 선택
+8. free_wifi_standard_data 테이블 선택
+
+### 실행 결과
+|![시도별 와이파이 설치](./img/count_by_city.png)   |![시도별 와이파이 서비스 제공업체](./img/count_by_service.png)|
+|---|---|
+| - 시도별 와이파이 설치| - 시도별 와이파이 서비스 제공업체|
+
+
+
+
 
 ## 고찰
 - Athena & 공공데이터 포털
@@ -115,7 +132,9 @@ SELECT * FROM awskrug.free_wifi_standard_data LIMIT 100;
     - Python: [https://github.com/hay/xml2json](https://github.com/hay/xml2json)
     - Javascript: [https://github.com/Leonidas-from-XIV/node-xml2js](https://github.com/Leonidas-from-XIV/node-xml2js)
   - 공공데이터 포털의 데이터는 각 시군구 데이터의 형식이 다를 경우도 있기 때문에 전국적인 데이터로 사용하기 위해서는 전처리 작업이 필요함
-- QuickSight를 사용하면서 느낀점
+- QuickSight
+  - QuickSight 계정에서 Account Setting > Account Permissions > Edit AWS permissions에서 문제가 발생했을 경우
+    - AWS IAM에서 이전에 생성된 IAM Role 및 policy(QuickSight로 검색)을 삭제해주면 정상적으로 다시 권한을 부여할 수 있음
   - 장점
     - 별도로 BI툴을 운영하거나 관리할 필요가 없음
     - 튜토리얼만 따라한다면 진입장벽이 높지 않음
