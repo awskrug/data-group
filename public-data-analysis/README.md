@@ -55,7 +55,7 @@ $ aws s3 cp s3://awskrug-workshop-publicdata s3://<USER_BUCKET_NAME> --recursive
 
 
 ## Athena에서 테이블 생성하기
-(여기서부터는 N.virginia 리전에서 진행합니다)
+(여기서부터는 N.virginia 리전에서 진행 필수)
 
 Athena에서 S3저장소에 있는 CSV파일에 대해서 쿼리하기 위해서는 파일 형식에 대해 Athena가 이해하고 있어야 가능하다.
 
