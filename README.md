@@ -19,12 +19,12 @@
 문건웅 교수님 - [R과 Shiny를 사용한 웹앱 개발 라이브 코딩 세션 with 핸즈온](http://web-r.space:3838/app5/)
 
 ## [제2회 딥러닝모임 (17/06/29)](https://www.meetup.com/ko-KR/awskrug/events/240664059/)
-김영재님 - 데이터를 만들기 위한 노오오력
+김영재님 - [데이터를 만들기 위한 노오오력](https://www.slideshare.net/youngjaekim58/ss-77479253)
 
 ## [제2회 빅데이터모임 (17/06/08)](https://www.meetup.com/ko-KR/awskrug/events/239927388/)
-변규현님 - EC2에서 Docker와 Docker Compose 사용하기
+변규현님 - [EC2에서 Docker와 Docker Compose 사용하기](http://slides.com/byunkyuhyun/ec2-docker-docker-compose#/)
 
-장상환님 - SSD 기술동향
+장상환님 - [SSD 기술동향](https://drive.google.com/file/d/0B8LL1kJ4S-YBYWJ6eUEzMFJFcGFpVE5FX3ZLdUdJUTV2REs0/view?usp=sharing)
 
 ## [제1회 딥러닝모임 (17/05/25)](https://www.meetup.com/ko-KR/awskrug/events/239747870/)
 최선근님 - [아마존 P2 인스턴스에서 텐서플로우 시작하기](https://www.slideshare.net/SunKeunChoi/20170525-aws-p2-tensorflow-76340418)
