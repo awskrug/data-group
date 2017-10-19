@@ -2,7 +2,7 @@
 
 
 ## [제6회 (17/10/12)](https://www.meetup.com/ko-KR/awskrug/events/243623025/)
-김영헌님 - 나도 하고 너도 하는 나의 데이터 분석 시작하기
+김영헌님 - [나도 하고 너도 하는 나의 데이터 분석 시작하기](https://www.slideshare.net/YoungKim15/awskrug-datascience)
 
 ## [제5회 (17/09/14)](https://www.meetup.com/ko-KR/awskrug/events/242616537/)
 변규현님, 류한진님 - [공공데이터를 이용한 데이터 만들기부터 분석까지](./public-data-analysis/README.md)
