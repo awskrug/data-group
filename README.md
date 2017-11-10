@@ -1,5 +1,7 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
+## [제7회 (17/11/09)](https://www.meetup.com/ko-KR/awskrug/events/244368852/)
+정도현님 - [일본기업의 데이터활용  사례](https://aws.amazon.com/jp/solutions/case-studies/big-data)
 
 ## [제6회 (17/10/12)](https://www.meetup.com/ko-KR/awskrug/events/243623025/)
 김영헌님 - [나도 하고 너도 하는 나의 데이터 분석 시작하기](https://www.slideshare.net/YoungKim15/awskrug-datascience)
