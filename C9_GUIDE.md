@@ -60,9 +60,9 @@ Sign Up 버튼을 눌러 계정을 생성합니다.
 아래 부분을 보면 Shell 명령어를 입력할 수 있는 부분이 있습니다. 다음과 같은 순서로 명령어를 입력해 주시기 바랍니다.
 
 ```sh
-$ sudo apt-get update
-$ sudo apt-get install python2.7-dev -y
-$ sudo apt-get install awscli -y --upgrade
+$ curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+$ unzip awscli-bundle.zip
+$ sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
 ```
 
 AWS CLI를 사용하기 위해 환경변수를 설정해줍니다.
