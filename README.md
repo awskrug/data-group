@@ -42,5 +42,7 @@
 
 ## 1차: 헬로우 데이터과학 - 김진영(한빛미디어)
 [1회 모임 (17/09/28)](https://www.meetup.com/ko-KR/awskrug/events/243356663/)
-[2회 모임 (17/10/19]](https://www.meetup.com/ko-KR/awskrug/events/244136643/)
+
+[2회 모임 (17/10/19)](https://www.meetup.com/ko-KR/awskrug/events/244136643/)
+
 [3회 모임 (17/11/02](https://www.meetup.com/ko-KR/awskrug/events/244559852/)
