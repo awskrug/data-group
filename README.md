@@ -1,6 +1,9 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
+## [제9회 (17/01/18)](https://www.meetup.com/ko-KR/awskrug/events/246107614/)
+[류한진님](https://www.facebook.com/RyuHanJin) - Squeezenet과 AWS DeepLens
+
 ## [제8회 (17/12/07)](https://www.meetup.com/ko-KR/awskrug/events/245044916/)
-[도경태님](https://www.facebook.com/kt.doh) - [인공지능과 데이터의 버뮤다 삼각지대]
+[도경태님](https://www.facebook.com/kt.doh) - 인공지능과 데이터의 버뮤다 삼각지대
 
 ## [제7회 (17/11/09)](https://www.meetup.com/ko-KR/awskrug/events/244368852/)
 [정도현님](https://www.facebook.com/dohyjung) - [일본기업의 데이터활용  사례](https://aws.amazon.com/jp/solutions/case-studies/big-data)
