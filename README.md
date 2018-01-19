@@ -12,7 +12,7 @@
 [김영헌님](https://www.facebook.com/young.kim.374) - [나도 하고 너도 하는 나의 데이터 분석 시작하기](https://www.slideshare.net/YoungKim15/awskrug-datascience)
 
 ## [제5회 (17/09/14)](https://www.meetup.com/ko-KR/awskrug/events/242616537/)
-[변규현님](https://www.facebook.com/kyuhyun.byun), [류한진님](https://www.facebook.com/RyuHanJin) - [공공데이터를 이용한 데이터 만들기부터 분석까지](./public-data-analysis/README.md)
+[변규현님](https://www.facebook.com/kyuhyun.byun), [류한진님](https://www.facebook.com/RyuHanJin) - [공공데이터를 이용한 데이터 만들기부터 분석까지](./workshop-public_data_analysis/README.md)
 
 ## [제3회 딥러닝모임 (17/09/07)](https://www.meetup.com/ko-KR/awskrug/events/242889826/)
 [정도현님](https://www.facebook.com/dohyjung) - [머신러닝 엔지니어 테크트리](http://bit.ly/painless-ml)
