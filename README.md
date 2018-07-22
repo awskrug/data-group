@@ -1,5 +1,18 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
-## [제11회 (17/02/22)](https://www.meetup.com/ko-KR/awskrug/events/248298239/)
+
+
+## [제14회 (17/07/05)](https://www.meetup.com/ko-KR/awskrug/events/251853850/)
+[권정빈님](https://www.facebook.com/datamaker) - [세션 발표자 $100 AWS 크레딧을 활용하여 이미지 분석 태깅 서비스 만들기](https://github.com/datamaker/arteight-imagerecognition)
+
+[소성운님](https://www.facebook.com/imso13) - [MWC Shanghai 2018 톺아보기](https://www.slideshare.net/SungWoonSo/mwc-shanghai-2018-104447108)
+
+## [제13회 (17/06/07)](https://www.meetup.com/ko-KR/awskrug/events/250804123/)
+[김재혁님](https://www.facebook.com/jaehyuk.kim) - [AWS없이 만든 AWS와 유사한 데이터 파이프라인](https://www.slideshare.net/jaehyukkim1/aws-aws-100684077)
+
+## [제12회 (17/05/03)](https://www.meetup.com/ko-KR/awskrug/events/249485681/)
+[소성운님](https://www.facebook.com/imso13) - [R과 Sagemaker를 활용한 딥러닝 어플리케이션 만들기](https://www.slideshare.net/SungWoonSo/r-sagemaker-95880414)
+
+## [제11회 (17/03/29)](https://www.meetup.com/ko-KR/awskrug/events/248298239/)
 [오회근님](https://www.facebook.com/harry5004) - 유엔 블록체인 워크샵 참가기
 
 [황장군님](https://www.facebook.com/bigquery) - Cloud services for AI
@@ -14,7 +27,7 @@
 [도경태님](https://www.facebook.com/kt.doh) - 인공지능과 데이터의 버뮤다 삼각지대
 
 ## [제7회 (17/11/09)](https://www.meetup.com/ko-KR/awskrug/events/244368852/)
-[정도현님](https://www.facebook.com/dohyjung) - [일본기업의 데이터활용  사례](https://aws.amazon.com/jp/solutions/case-studies/big-data)
+[정도현님](https://www.facebook.com/dohyjung) - [일본기업의 데이터활용 사례](https://aws.amazon.com/jp/solutions/case-studies/big-data)
 
 ## [제6회 (17/10/12)](https://www.meetup.com/ko-KR/awskrug/events/243623025/)
 [김영헌님](https://www.facebook.com/young.kim.374) - [나도 하고 너도 하는 나의 데이터 분석 시작하기](https://www.slideshare.net/YoungKim15/awskrug-datascience)
