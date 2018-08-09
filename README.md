@@ -1,26 +1,26 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
 
-## [제14회 (17/07/05)](https://www.meetup.com/ko-KR/awskrug/events/251853850/)
+## [제14회 (18/07/05)](https://www.meetup.com/ko-KR/awskrug/events/251853850/)
 [권정빈님](https://www.facebook.com/datamaker) - [세션 발표자 $100 AWS 크레딧을 활용하여 이미지 분석 태깅 서비스 만들기](https://github.com/datamaker/arteight-imagerecognition)
 
 [소성운님](https://www.facebook.com/imso13) - [MWC Shanghai 2018 톺아보기](https://www.slideshare.net/SungWoonSo/mwc-shanghai-2018-104447108)
 
-## [제13회 (17/06/07)](https://www.meetup.com/ko-KR/awskrug/events/250804123/)
+## [제13회 (18/06/07)](https://www.meetup.com/ko-KR/awskrug/events/250804123/)
 [김재혁님](https://www.facebook.com/jaehyuk.kim) - [AWS없이 만든 AWS와 유사한 데이터 파이프라인](https://www.slideshare.net/jaehyukkim1/aws-aws-100684077)
 
-## [제12회 (17/05/03)](https://www.meetup.com/ko-KR/awskrug/events/249485681/)
+## [제12회 (18/05/03)](https://www.meetup.com/ko-KR/awskrug/events/249485681/)
 [소성운님](https://www.facebook.com/imso13) - [R과 Sagemaker를 활용한 딥러닝 어플리케이션 만들기](https://www.slideshare.net/SungWoonSo/r-sagemaker-95880414)
 
-## [제11회 (17/03/29)](https://www.meetup.com/ko-KR/awskrug/events/248298239/)
+## [제11회 (18/03/29)](https://www.meetup.com/ko-KR/awskrug/events/248298239/)
 [오회근님](https://www.facebook.com/harry5004) - 유엔 블록체인 워크샵 참가기
 
 [황장군님](https://www.facebook.com/bigquery) - Cloud services for AI
 
-## [제10회 (17/02/22)](https://www.meetup.com/ko-KR/awskrug/events/246934453/)
+## [제10회 (18/02/22)](https://www.meetup.com/ko-KR/awskrug/events/246934453/)
 [최선근님](https://www.facebook.com/sunkeun82) - [Object Detection](https://docs.google.com/presentation/d/1_T__UJTWttOBORon7bane48Qc_uT6q25Ms9JaiWSTI0/edit?usp=sharing)
 
-## [제9회 (17/01/18)](https://www.meetup.com/ko-KR/awskrug/events/246107614/)
+## [제9회 (18/01/18)](https://www.meetup.com/ko-KR/awskrug/events/246107614/)
 [류한진님](https://www.facebook.com/RyuHanJin) - Squeezenet과 AWS DeepLens
 
 ## [제8회 (17/12/07)](https://www.meetup.com/ko-KR/awskrug/events/245044916/)
