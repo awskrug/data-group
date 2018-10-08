@@ -1,5 +1,12 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
+## [제16회 (18/10/04)](https://www.meetup.com/ko-KR/awskrug/events/255084203/)
+[이상현님](https://www.facebook.com/changhyun.lee.37) - [Spark SQL 로 여러 데이터 소스에 한번에 쿼리하기](https://docs.google.com/presentation/d/1rvLV5CT1p1nocpyLxIWTeWctrTd7jzT2ivdFjd08aC4/edit?usp=sharing)
+
+## [제15회 (18/09/06)](https://www.meetup.com/ko-KR/awskrug/events/252837743/)
+[이세환님](https://www.facebook.com/silveris23) - Overview Spark & Zeppelin
+
+[류한진님](https://www.facebook.com/RyuHanJin) - [AWS Glue overview](https://bit.ly/AWSGlueOverview)
 
 ## [제14회 (18/07/05)](https://www.meetup.com/ko-KR/awskrug/events/251853850/)
 [권정빈님](https://www.facebook.com/datamaker) - [세션 발표자 $100 AWS 크레딧을 활용하여 이미지 분석 태깅 서비스 만들기](https://github.com/datamaker/arteight-imagerecognition)
