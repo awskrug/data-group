@@ -1,5 +1,8 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
+## [제17회 (18/12/22)](https://www.meetup.com/awskrug/events/257050186/)
+[권낙주님](https://www.facebook.com/nakjoo.kwon.5) - [AWS 활용한 Data Lake구성하기](https://www.slideshare.net/nakjookwon5/aws-data-lake)
+
 ## [제16회 (18/10/04)](https://www.meetup.com/ko-KR/awskrug/events/255084203/)
 [이상현님](https://www.facebook.com/changhyun.lee.37) - [Spark SQL 로 여러 데이터 소스에 한번에 쿼리하기](https://docs.google.com/presentation/d/1rvLV5CT1p1nocpyLxIWTeWctrTd7jzT2ivdFjd08aC4/edit?usp=sharing)
 
