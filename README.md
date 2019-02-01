@@ -1,6 +1,6 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
-## [제18회 (19/01/31)](https://www.meetup.com/awskrug/events/257773884/)
+## [제19회 (19/01/31)](https://www.meetup.com/awskrug/events/257773884/)
 [조창윤님](https://www.facebook.com/changyoon.cho.3) - [Amazon SageMaker 을 이용한 수요 예측](https://drive.google.com/file/d/1SMKdDzjMBBq1BSfGhk52iJClwSTM1ryT/view?usp=drivesdk)
 
 ## [제17회 (18/12/22)](https://www.meetup.com/awskrug/events/257050186/)
