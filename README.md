@@ -8,6 +8,7 @@
 
 ## [제17회 (18/11/01)](https://www.meetup.com/awskrug/events/255290084/)
 [김동규님](https://www.facebook.com/zepot) - Amazone Kinesis를 이용한 datalake 도입기
+
 김상우님 - Spark ML 입문
 
 ## [제16회 (18/10/04)](https://www.meetup.com/ko-KR/awskrug/events/255084203/)
