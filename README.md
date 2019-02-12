@@ -9,7 +9,7 @@
 ## [제17회 (18/11/01)](https://www.meetup.com/awskrug/events/255290084/)
 [김동규님](https://www.facebook.com/zepot) - Amazone Kinesis를 이용한 datalake 도입기
 
-김상우님 - Spark ML 입문
+김상우님 - [Spark ML 입문](https://www.slideshare.net/secret/NH7e1FdP3ad9nK)
 
 ## [제16회 (18/10/04)](https://www.meetup.com/ko-KR/awskrug/events/255084203/)
 [이상현님](https://www.facebook.com/changhyun.lee.37) - [Spark SQL 로 여러 데이터 소스에 한번에 쿼리하기](https://docs.google.com/presentation/d/1rvLV5CT1p1nocpyLxIWTeWctrTd7jzT2ivdFjd08aC4/edit?usp=sharing)
