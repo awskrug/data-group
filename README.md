@@ -1,5 +1,10 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
+## [제20회 (19/03/07)](https://www.meetup.com/awskrug/events/259013277/)
+[권성환님](https://www.facebook.com/sunghwan.kwon.9) - 개발자가 딥러닝을 하면 안되는걸까? - 기계 번역 로동기
+
+[소성운님](https://www.facebook.com/imso13) - [아마존닷컴의 개인화 추천을 내 것으로 - Amazon Personalize 살펴보기](https://www.slideshare.net/secret/BoasIWSSLoeUr)
+
 ## [제19회 (19/01/31)](https://www.meetup.com/awskrug/events/257773884/)
 [조창윤님](https://www.facebook.com/changyoon.cho.3) - [Amazon SageMaker 을 이용한 수요 예측](https://drive.google.com/file/d/1SMKdDzjMBBq1BSfGhk52iJClwSTM1ryT/view?usp=drivesdk)
 
