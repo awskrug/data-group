@@ -1,7 +1,7 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
 ## [제20회 (19/03/07)](https://www.meetup.com/awskrug/events/259013277/)
-[권성환님](https://www.facebook.com/sunghwan.kwon.9) - 개발자가 딥러닝을 하면 안되는걸까? - 기계 번역 로동기
+[권성환님](https://www.facebook.com/sunghwan.kwon.9) - [개발자가 딥러닝을 하면 안되는걸까? - 기계 번역 로동기](https://www.slideshare.net/SunghwanKwon1/ss-135420491)
 
 [소성운님](https://www.facebook.com/imso13) - [아마존닷컴의 개인화 추천을 내 것으로 - Amazon Personalize 살펴보기](https://www.slideshare.net/secret/BoasIWSSLoeUr)
 
