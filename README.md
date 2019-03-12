@@ -12,7 +12,7 @@
 [권낙주님](https://www.facebook.com/nakjoo.kwon.5) - [AWS 활용한 Data Lake구성하기](https://www.slideshare.net/nakjookwon5/aws-data-lake)
 
 ## [제17회 (18/11/01)](https://www.meetup.com/awskrug/events/255290084/)
-[김동규님](https://www.facebook.com/zepot) - Amazone Kinesis를 이용한 datalake 도입기
+[김동규님](https://www.facebook.com/zepot) - [Amazone Kinesis를 이용한 datalake 도입기](https://www.slideshare.net/secret/emY3wJotWqGH45)
 
 김상우님 - [Spark ML 입문](https://www.slideshare.net/secret/NH7e1FdP3ad9nK)
 
