@@ -1,5 +1,8 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
+## [제21회 (19/04/04)](https://www.meetup.com/awskrug/events/259927842/)
+김재철님 - [미움 받을 용기 : 저 팀은 뭘 안다고 추천한다고 들쑤시고 다니는건가.](https://www.slideshare.net/JaeCheolKim10/ss-140767789)
+
 ## [제20회 (19/03/07)](https://www.meetup.com/awskrug/events/259013277/)
 [권성환님](https://www.facebook.com/sunghwan.kwon.9) - [개발자가 딥러닝을 하면 안되는걸까? - 기계 번역 로동기](https://www.slideshare.net/SunghwanKwon1/ss-135420491)
 
