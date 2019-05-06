@@ -72,7 +72,58 @@ Tableau is ...
 - 마지막 보안을 위한 설정입니다. 최초에 생성한 키페어를 선택하고 *클러스터 생성* 버튼을 누릅니다.
 - 생성완료까지 수분이 소요됩니다.
 
-![EMR 클러스터 설정하기](./img/emr-007.png)
+![EMR 클러스터 보안 설정하기](./img/emr-007.png)
+
+- EMR 클러스터 생성이 완료되면 아래와 같은 화면을 보실 수 있습니다.
+- *마스터 퍼블릭 DNS*는 Zeppelin이나 ssh 접속 시 사용할 수 있습니다.
+- *마스터 보안그룹*에서 보안그룹을 설정하여 접근권한을 제어할 수 있는데, 실습을 위해 현재 IP 기준으로 접근을 허가하도록 하겠습니다.
+
+![구성된 EMR 클러스터](./img/emr-008.png)
+
+- *마스터 보안그룹*을 클릭하면 EC2 콘솔 보안 그룹 메뉴로 이동합니다.
+- 스파크 마스터 보안그룹의 인바운드을 편집합니다.
+
+![스파크 마스터 보안그룹 편집](./img/emr-009.png)
+
+- 8890 포트 (Zeppelin 사용) 22 포트 (ssh 접속)을 사용하는 접근 가능한 소스에 *내 IP*를 설정합니다.
+
+![스파크 마스터 포트에 접근가능한 소스 편집](./img/emr-010.png)
+
+- 여기까지 모두 성공하셨다면 정상적을로 스파크 마스터노드 위에 셋팅된 Zeppelin에 접근이 가능합니다.
+
+```
+접속url: http://[생성된 마스터 퍼블릭 DNS]:8890
+ex) http://ec2-**-***-***-**.ap-northeast-1.compute.amazonaws.com:8890
+```
+
+- 데이터를 Zeppelin을 통해 만지기 전에 간다한 설정들을 해두겠습니다.
+  - 설정에 필요한 명령어들 묶음인 shell 파일을 업로드 합니다.
+  
+    ```
+    scp -i [KEY_PAIR_PATH] [env_emr_spark_zeppelin.sh_PATH] hadoop@[MASTER_PUBLIC_DNS]:/home/hadoop/env_emr_spark_zeppelin.sh
+    ```
+  
+  - 터미널에서 해당 마스터 노드에 ssh 접속합니다. 이전에 저장된 .pem 키를 사용합니다.
+  
+    ```
+    ssh -i [KEY_PAIR_PATH] hadoop@[MASTER_PUBLIC_DNS]
+    ```
+  
+  - ssh접속에 성공하였으면 아래 화면이 확인 가능합니다. ls 명령어를 통해 1번 과정에서 복사했던 파일 확인이 가능합니다.
+  
+  ![ssh 접속 화면](./img/emr-011.png)
+  
+  - 쉘스크립트 실행합니다. Zeppelin ID는 ds_handson_20190509로 미리 설정했습니다. 쉘스크립트가 실행되면 Zeppelin 비번을 한번 입력해주셔야 합니다.
+
+    ```
+    sh env_emr_spark_zeppelin.sh
+    ```
+  
+    설정 완료까지 수분이 소요됩니다.
+  
+- Zeppelin에 접속하여 id: ds_handson_20190509 pw: {입력하신 패스워드}로 접속이 정상적으로 되는지 확인합니다.
+  
+  ![Zeppelin에 로그인 성공!](./img/emr-012.png)
 
 ## 데이터셋 준비하기
 핸즈온에 사용할 데이터는 [SKT Big Data Hub](https://www.bigdatahub.co.kr)에서 제공하는 배달업종 이용현황 분석 2018년 데이터입니다. 사이트에 가보시면 회원가입 후 직접 다운로드가 가능하며 공개된 다양한 종류의 데이터가 많으니 확인해보시기 바랍니다.
