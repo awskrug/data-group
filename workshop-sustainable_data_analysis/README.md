@@ -39,11 +39,12 @@ Tableau is ...
 
   - pem키는 사용후 꼭 지우시거나 관리해주세요. git에 올리시면 안됩니다!
 
-1. EMR 시작하기
+### 1. EMR 시작하기
 - 콘솔에서 EMR 서비스로 이동합니다.
 - 이전에 EMR 서비스를 사용해보시지 않으셨다면 아래와 같은 화면을 볼 수 있습니다.
 
 ![EMR 시작하기](./img/emr-001.png)
+
 - *클러스터 생성* 버튼을 눌러 EMR을 생성해보겠습니다.
 - EMR 클러스터 생성을 위한 환경설정 메뉴를 확인하실 수 있습니다.
   - 빅데이터 분석을 위해서 어떤 소프트웨어를 사용할 것인지 선택할 수 있습니다.
@@ -54,7 +55,7 @@ Tableau is ...
 
 ![EMR 클러스터 생성하기 메뉴](./img/emr-002.png)
 
-2. EMR 구성하기
+### 2. EMR 구성하기
 - 소프트웨어 구성을 위한 화면입니다. 이전에 보았던 메뉴구성과 달리 원하시는 소프트웨어의 조합을 마음대로 구성하실 수 있습니다.
 - Zeppelin과 Spark 환경을 구성하기 위해 *Hadoop 2.8.5, Zeppelin 0.8.1, Spark 2.4.0*을 선택하였습니다.
 - AWS Glue 데이터 카탈로그 설정도 체크하였습니다.
@@ -133,12 +134,110 @@ ex) http://ec2-**-***-***-**.ap-northeast-1.compute.amazonaws.com:8890
 ## 데이터셋 준비하기
 핸즈온에 사용할 데이터는 [SKT Big Data Hub](https://www.bigdatahub.co.kr)에서 제공하는 배달업종 이용현황 분석 2018년 데이터입니다. 사이트에 가보시면 회원가입 후 직접 다운로드가 가능하며 공개된 다양한 종류의 데이터가 많으니 확인해보시기 바랍니다.
 
-1. 데이터 다운로드하기
-2. 데이터 S3에 업로드하기
+데이터는 미리 받아서 월별로 폴더트리를 만들어서 S3에 업로드 해두었습니다. EMR 마스터에 ssh 접속한 상태에서 아래 명령어를 통해서 여러분의 S3에 업로드하세요. EMR 마스터 인스터스에는 AWS CLI가 이미 셋업되어 있어서 바로 업로드가 가능합니다.
+
+```
+# Bucket 생성
+aws s3 mb s3://[your_id]-ds-handson-20190509 --region ap-northeast-2
+
+# 파일 업로드
+aws s3 sync s3://data-ds-handson-20190509 s3://[your_id]-ds-handson-20190509 --region ap-northeast-2
+
+# 업로드 확인
+aws s3 ls [your_id]-ds-handson-20190509
+```
+
+위와 같이 *aws s3 ls* 명령어로 확인하거나 직접 S3 콘솔에서 파일이 업로드 되어있으면 준비가 완료 되었습니다.
 
 ## Zeppelin을 이용하여 데이터 전처리
-1. Zeppelin 시작하기
-2. 데이터 전처리
+
+데이터분석을 위해 EMR 설정도 완료했고, 데이터도 준비되었습니다. 이제 진짜로 데이터를 들여다보도록 하겠습니다. 핸즈온으로 준비한 데이터는 총 120mb 정도되는 작은 데이터이고 충분히 Google Spread Sheet 서비스나 엑셀로도 처리가 가능합니다. 이번 핸즈온에서는 실제로 빅데이터를 다루지는 않지만 어떻게 AWS 리소스를 이용하여 일반적인 워크스테이션이나 데이터베이스에서 처리할 수 없는 빅데이터를 분석할 수 있는지에 대한 접근방법을 익히는것이 중요한것임을 말씀드립니다. 
+
+### 1. Zeppelin 시작하기
+Zeppelin에 접속하여 노트북을 생성합니다.
+
+![Zeppelin에서 노트북 생성하기](./img/emr-013.png)
+
+### 2. 데이터 불러오기 & 살펴보기
+여기부터 진행되는 내용은 아래 코드블락을 Zeppelin 노트북에 복사&붙여넣기 해보시고 실행해보시면 됩니다.
+
+- 자주쓰는 라이브러리 선언
+
+  ```
+  %pyspark
+
+  from pyspark.sql.functions import *
+  from pyspark.sql.types import *
+  from pyspark.sql.window import Window
+  import pandas as pd
+  import numpy as np
+  from urllib.parse import urlparse, parse_qs, unquote_plus, urlsplit
+  from datetime import datetime, timedelta
+  from dateutil.relativedelta import relativedelta
+  import re
+  import time
+  import builtins
+  ```
+
+- S3 데이터 불러오기 (PySpark 이용)
+
+  ```
+  %pyspark
+
+  dat = spark.read.csv("s3n://[your_id]-ds-handson-20190509/*", header = True)
+  z.show(dat)
+  ```
+  
+  ![데이터 불러오기](./img/emr-014.png)
+  
+  (..데이터 설명..)
+  
+  요일별 분석을 위해 요일 정보가 있으면 좋겠습니다. [이 페이지](https://stackoverflow.com/questions/38928919/how-to-get-the-weekday-from-day-of-month-using-pyspark)를 참고하면 날짜에서 요일정보를 만들 수 있을 것 같습니다. 새로운 블록을 만들어서 아래와 같이 시도해봅니다.
+  
+  ```
+  dat = spark.read.csv("s3n://yanso-ds-handson-20190509/*", header = True)\
+    .withColumn("dow_number", date_format('일자', 'u'))
+
+  z.show(dat)
+  ```
+  
+  새로 만든 "dayofweek" 열에 예상했던 요일정보가 없고 null 값으로 채워져 있습니다. 사용한 [date_format 관련 문서](https://spark.apache.org/docs/2.1.0/api/python/pyspark.sql.html)를 보면 입력값으로 date와 format을 받습니다. 저희가 넘겨준 '일자'칼럼을 date로 인식하지 못해서 발생한 문제인 것 같습니다.
+
+  ![요일 정보 없음](./img/emr-015.png)
+
+### 3. 데이터 전처리
+
+- '일자' 컬럼을 PySpark가 좋아하는 형태로 변환시킵니다. to_date 함수의 foramt 파라미터에 date 정보의 형태를 알려주면 date 형태로 정보를 올바르게 읽어옵니다.
+- 그 후에 다시 date_format 함수를 이용하여 요일정보를 가져옵니다.
+
+  ```
+  dat = spark.read.csv("s3n://yanso-ds-handson-20190509/*", header = True)\
+    .withColumn("일자", to_date("일자", "yyyyMMdd"))\
+    .withColumn("dow_number", date_format('일자', 'u'))\
+    .withColumn("dow_string", date_format('일자', 'E'))
+  ```
+
+  ![요일 정보 생성](./img/emr-016.png)
+
+- 이와같이 Zeppelin을 통해 데이터 전처리가 가능하고 간단한 분석 및 시각화도 
+가능합니다.
+
+  ```
+  %pyspark
+
+  result = dat\
+    .groupBy("dow_number", "dow_string")\
+    .agg(sum("통화건수").alias("통화건수"))\
+    .sort("dow_number")
+    
+  z.show(result)
+  ```
+  
+  ![요일별 통화건수 합계 (표)](./img/emr-017.png)
+  ![요일별 통화건수 합계 (막대그래프)](./img/emr-018.png)
+
+- 전처리 데이터 저장하기
+  - (...)
 
 ## AWS Glue를 이용하여 데이터 카탈로그 생성
 1. Glue 크롤러를 이용해여 테이블 생성
