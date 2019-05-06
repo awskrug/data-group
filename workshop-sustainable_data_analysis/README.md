@@ -37,6 +37,8 @@ Tableau is ...
   chmod 400 ds-handson-20190509.pem
   ```
 
+  - pem키는 사용후 꼭 지우시거나 관리해주세요. git에 올리시면 안됩니다!
+
 1. EMR 시작하기
 - 콘솔에서 EMR 서비스로 이동합니다.
 - 이전에 EMR 서비스를 사용해보시지 않으셨다면 아래와 같은 화면을 볼 수 있습니다.
@@ -92,15 +94,18 @@ Tableau is ...
 - 여기까지 모두 성공하셨다면 정상적을로 스파크 마스터노드 위에 셋팅된 Zeppelin에 접근이 가능합니다.
 
 ```
-접속url: http://[생성된 마스터 퍼블릭 DNS]:8890
+접속URL: http://[생성된 마스터 퍼블릭 DNS]:8890
 ex) http://ec2-**-***-***-**.ap-northeast-1.compute.amazonaws.com:8890
 ```
 
 - 데이터를 Zeppelin을 통해 만지기 전에 간다한 설정들을 해두겠습니다.
-  - 설정에 필요한 명령어들 묶음인 shell 파일을 업로드 합니다.
+  - [간편 설정을 위한 쉘스크립트](https://github.com/awskrug/datascience-group/blob/master/workshop-sustainable_data_analysis/env_emr_spark_zeppelin.sh)를 Working Directory에 다운받습니다.
+  - 설정에 필요한 명령어들 묶음인 쉘스크립트 파일을 업로드 합니다.
   
     ```
-    scp -i [KEY_PAIR_PATH] [env_emr_spark_zeppelin.sh_PATH] hadoop@[MASTER_PUBLIC_DNS]:/home/hadoop/env_emr_spark_zeppelin.sh
+    mkdir ds_handson_20190509
+    cd ./ds_handson_20190509
+    scp -i [KEY_PAIR_PATH] ./env_emr_spark_zeppelin.sh hadoop@[MASTER_PUBLIC_DNS]:/home/hadoop/env_emr_spark_zeppelin.sh
     ```
   
   - 터미널에서 해당 마스터 노드에 ssh 접속합니다. 이전에 저장된 .pem 키를 사용합니다.
@@ -109,7 +114,7 @@ ex) http://ec2-**-***-***-**.ap-northeast-1.compute.amazonaws.com:8890
     ssh -i [KEY_PAIR_PATH] hadoop@[MASTER_PUBLIC_DNS]
     ```
   
-  - ssh접속에 성공하였으면 아래 화면이 확인 가능합니다. ls 명령어를 통해 1번 과정에서 복사했던 파일 확인이 가능합니다.
+  - ssh접속에 성공하였으면 아래 화면이 확인 가능합니다. ls 명령어를 통해 1번 과정에서 복사했던 쉘스크립트 파일이 확인 가능합니다.
   
   ![ssh 접속 화면](./img/emr-011.png)
   
