@@ -1,23 +1,18 @@
 #!/bin/bash
     
-if [ "$ZEPPELIN_USER_ID" == "" ];then
-   echo 'ERROR: Please assign ZEPPELIN_USER_ID like ZEPPELIN_USER_ID="YOUR_ZEPPELIN_ID"'
-   exit
-fi
-
 echo "============================== ADD NEW USER FOR ZEPPELIN =============================="
 
 # 새로운 사용자 추가
-sudo useradd -m ${ZEPPELIN_USER_ID}
+sudo useradd -m ds_handson_20190509
 
 # 새로운 사용자의 암호 설정
-sudo passwd ${ZEPPELIN_USER_ID}
+sudo passwd ds_handson_20190509
 
 # 새로운 사용자의 HDFS 디렉토리 생성
-hadoop fs -mkdir /user/${ZEPPELIN_USER_ID}
+hadoop fs -mkdir /user/ds_handson_20190509
 
 # 새로운 사용자의 HDFS 디렉토리 권한 수정
-hadoop fs -chmod 777 /user/${ZEPPELIN_USER_ID}
+hadoop fs -chmod 777 /user/ds_handson_20190509
 
 echo "============================== INSTALL AND UPDATE PACKAGES =============================="
 
