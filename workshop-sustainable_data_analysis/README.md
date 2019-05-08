@@ -197,7 +197,7 @@ Zeppelin에 접속하여 노트북을 생성합니다.
   ```
   %pyspark
   
-  dat = spark.read.csv("s3n://yanso-ds-handson-20190509/original_data/*", header = True)\
+  dat = spark.read.csv("s3n://[your_id]-ds-handson-20190509/original_data/*", header = True)\
     .withColumn("dow_number", date_format('일자', 'u'))
 
   z.show(dat)
@@ -215,7 +215,7 @@ Zeppelin에 접속하여 노트북을 생성합니다.
   ```
   %pyspark
   
-  dat = spark.read.csv("s3n://yanso-ds-handson-20190509/original_data/*", header = True)\
+  dat = spark.read.csv("s3n://[your_id]-ds-handson-20190509/original_data/*", header = True)\
     .withColumn("일자", to_date("일자", "yyyyMMdd"))\
     .withColumn("dow_number", date_format('일자', 'u'))\
     .withColumn("dow_string", date_format('일자', 'E'))
@@ -243,10 +243,29 @@ Zeppelin에 접속하여 노트북을 생성합니다.
   ![요일별 통화건수 합계 (막대그래프)](./img/emr-018.png)
 
 - 전처리 데이터 저장하기
-날짜포맷을 바꾸고 요일정보를 추가한 데이터를 다시 S3에 적재합니다. 기존에는 *[your_id]-ds-handson-20190509* 버켓에 *yyyymm* 폴더트리 형태(월별)로 데이터가 저장되어 있었는데요. 핸즈온 데이터에서는 문제가 되지 않지만 만약 월별로 적재되는 데이터의 사이즈가 크다면 그 데이터를 조회하는데만 큰 비용이 발생합니다. 효율적인 데이터 관리와 파티션이라는 개념을 향후에 사용하기 위해 폴더트리를 일단위까지로 변경하여 저장하겠습니다.
+날짜포맷을 바꾸고 요일정보를 추가한 데이터를 다시 S3에 적재합니다. 기존에는 *[your_id]-ds-handson-20190509* 버켓의 origianl_data 폴더에 1년치 데이터가  저장되어 있었는데요. 크게 문제가 되지 않을 파일 사이즈이지만, 만약 일별/월별로 적재되는 데이터의 사이즈가 크고 오랜기간 동안 데이터가 누적되었다면 그 데이터를 조회하는데만 큰 비용이 발생합니다. 효율적인 데이터 관리와 파티션이라는 개념을 향후에 사용하기 위해 폴더트리를 월단위로 변경하여 저장하겠습니다.
 
   ```
+  %pyspark
+
+  start_date = "2018-01-01"
+
+  for mm in range(0, 12):
+    dt = datetime.strptime(start_date, '%Y-%m-%d') + relativedelta(months = mm)
+    date_yyyy_mm = "{:%Y-%m}".format(dt)
+    date_simple = "{:%Y-%m-%d}".format(dt)
+    print(date_yyyy_mm)
+
+    result = dat\
+        .filter(col("일자").startswith(date_yyyy_mm))\
+        .repartition(1)\
+        .write\
+        .csv("s3n://[your_id]-ds-handson-20190509/result/{}".format(date_yyyy_mm), header=True, mode="overwrite")
   ```
+
+해당 버켓의 result 폴더에 가보면 의도한대로 데이터가 월별로 폴더링 되어 적재되어 있습니다.
+
+![월별로 정리되어 적재된 데이터](./img/emr-019.png)
 
 ## AWS Glue를 이용하여 데이터 카탈로그 생성
 1. Glue 크롤러를 이용해여 테이블 생성
