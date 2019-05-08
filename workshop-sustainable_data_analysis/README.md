@@ -188,14 +188,16 @@ Zeppelin에 접속하여 노트북을 생성합니다.
   z.show(dat)
   ```
   
-  ![데이터 불러오기](./img/emr-014.png)
+  ![데이터 불러오기](./img/emr-014_2.png)
   
   (..데이터 설명..)
   
   요일별 분석을 위해 요일 정보가 있으면 좋겠습니다. [이 페이지](https://stackoverflow.com/questions/38928919/how-to-get-the-weekday-from-day-of-month-using-pyspark)를 참고하면 날짜에서 요일정보를 만들 수 있을 것 같습니다. 새로운 블록을 만들어서 아래와 같이 시도해봅니다.
   
   ```
-  dat = spark.read.csv("s3n://yanso-ds-handson-20190509/*", header = True)\
+  %pyspark
+  
+  dat = spark.read.csv("s3n://yanso-ds-handson-20190509/original_data/*", header = True)\
     .withColumn("dow_number", date_format('일자', 'u'))
 
   z.show(dat)
@@ -203,7 +205,7 @@ Zeppelin에 접속하여 노트북을 생성합니다.
   
   새로 만든 "dayofweek" 열에 예상했던 요일정보가 없고 null 값으로 채워져 있습니다. 사용한 [date_format 관련 문서](https://spark.apache.org/docs/2.1.0/api/python/pyspark.sql.html)를 보면 입력값으로 date와 format을 받습니다. 저희가 넘겨준 '일자'칼럼을 date로 인식하지 못해서 발생한 문제인 것 같습니다.
 
-  ![요일 정보 없음](./img/emr-015.png)
+  ![요일 정보 없음](./img/emr-015_2.png)
 
 ### 3. 데이터 전처리
 
@@ -211,13 +213,17 @@ Zeppelin에 접속하여 노트북을 생성합니다.
 - 그 후에 다시 date_format 함수를 이용하여 요일정보를 가져옵니다.
 
   ```
-  dat = spark.read.csv("s3n://yanso-ds-handson-20190509/*", header = True)\
+  %pyspark
+  
+  dat = spark.read.csv("s3n://yanso-ds-handson-20190509/original_data/*", header = True)\
     .withColumn("일자", to_date("일자", "yyyyMMdd"))\
     .withColumn("dow_number", date_format('일자', 'u'))\
     .withColumn("dow_string", date_format('일자', 'E'))
+    
+  z.show(dat)
   ```
 
-  ![요일 정보 생성](./img/emr-016.png)
+  ![요일 정보 생성](./img/emr-016_2.png)
 
 - 이와같이 Zeppelin을 통해 데이터 전처리가 가능하고 간단한 분석 및 시각화도 
 가능합니다.
