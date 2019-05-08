@@ -19,10 +19,12 @@ Amazon S3는 업계 최고의 확장성과 데이터 가용성 및 보안과 성
 ### AWS Glue
 AWS Glue는 고객이 분석을 위해 손쉽게 데이터를 준비하고 로드할 수 있게 지원하는 완전관리형 ETL(추출, 변환 및 로드) 서비스입니다. AWS Management Console에서 클릭 몇 번으로 ETL 작업을 생성하고 실행할 수 있습니다. AWS Glue가 AWS에 저장된 데이터를 가리키도록 하기만 하면, AWS Glue에서 데이터를 검색하고 관련 메타데이터(예: 테이블 정의, 스키마)를 AWS Glue 데이터 카탈로그에 저장합니다. 카탈로그에 저장되면, 데이터는 즉시 검색하고 쿼리하고 ETL에서 사용할 수 있는 상태가 됩니다.
 ### Amazon EMR
-Amazon EMR is ...
+Amazon EMR은 관리형 하둡 프레임워크로서 동적으로 확장 가능한 Amazon EC2 인스턴스 전체에서 대량의 데이터를 쉽고 빠르며 비용 효율적으로 처리할 수 있습니다. 또한, EMR에서 Apache Spark, HBase, Presto 및 Flink와 같이 널리 사용되는 분산 프레임워크를 실행하고, Amazon S3 및 Amazon DynamoDB와 같은 다른 AWS 데이터 스토어의 데이터와 상호 작용할 수 있습니다. 널리 사용되는 Jupyter Notebook에 기반한 EMR Notebooks는 임시 쿼리 및 탐색 분석을 위한 개발 및 협업 환경을 제공합니다. EMR은 로그 분석, 웹 인덱싱, 데이터 변환(ETL), 기계 학습, 금융 분석, 과학적 시뮬레이션 및 생물 정보학을 비롯하여 광범위한 빅 데이터 사용 사례를 안전하고 안정적으로 처리합니다.
 ### Amazon Athena
+Amazon Athena는 표준 SQL을 사용해 Amazon S3에 저장된 데이터를 간편하게 분석할 수 있는 대화식 쿼리 서비스입니다. Athena는 서버리스 서비스이므로 관리할 인프라가 없으며 실행한 쿼리에 대해서만 비용을 지불하면 됩니다.
 ### Tableau
-Tableau is ...
+Tableau는 데이터를 분석하고 시각화해주는 Self-BI Tool 입니다
+
 
 ## EMR을 통해 분석환경 구축하기
 시작하기에 앞서서 생성한 EMR 클러스터에 ssh 접속을 위해 EC2키페어를 생성합니다.
