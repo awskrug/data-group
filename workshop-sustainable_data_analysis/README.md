@@ -141,10 +141,10 @@ ex) http://ec2-**-***-***-**.ap-northeast-1.compute.amazonaws.com:8890
 aws s3 mb s3://[your_id]-ds-handson-20190509 --region ap-northeast-2
 
 # 파일 업로드
-aws s3 sync s3://data-ds-handson-20190509 s3://[your_id]-ds-handson-20190509 --region ap-northeast-2
+aws s3 sync s3://data-ds-handson-20190509 s3://[your_id]-ds-handson-20190509/original_data --region ap-northeast-2
 
 # 업로드 확인
-aws s3 ls [your_id]-ds-handson-20190509
+aws s3 ls [your_id]-ds-handson-20190509/original_data/
 ```
 
 위와 같이 *aws s3 ls* 명령어로 확인하거나 직접 S3 콘솔에서 파일이 업로드 되어있으면 준비가 완료 되었습니다.
@@ -184,7 +184,7 @@ Zeppelin에 접속하여 노트북을 생성합니다.
   ```
   %pyspark
 
-  dat = spark.read.csv("s3n://[your_id]-ds-handson-20190509/*", header = True)
+  dat = spark.read.csv("s3n://[your_id]-ds-handson-20190509/original_data/*", header = True)
   z.show(dat)
   ```
   
@@ -237,7 +237,10 @@ Zeppelin에 접속하여 노트북을 생성합니다.
   ![요일별 통화건수 합계 (막대그래프)](./img/emr-018.png)
 
 - 전처리 데이터 저장하기
-  - (...)
+날짜포맷을 바꾸고 요일정보를 추가한 데이터를 다시 S3에 적재합니다. 기존에는 *[your_id]-ds-handson-20190509* 버켓에 *yyyymm* 폴더트리 형태(월별)로 데이터가 저장되어 있었는데요. 핸즈온 데이터에서는 문제가 되지 않지만 만약 월별로 적재되는 데이터의 사이즈가 크다면 그 데이터를 조회하는데만 큰 비용이 발생합니다. 효율적인 데이터 관리와 파티션이라는 개념을 향후에 사용하기 위해 폴더트리를 일단위까지로 변경하여 저장하겠습니다.
+
+  ```
+  ```
 
 ## AWS Glue를 이용하여 데이터 카탈로그 생성
 1. Glue 크롤러를 이용해여 테이블 생성
