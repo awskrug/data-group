@@ -1,5 +1,9 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
+## [제22회 (19/05/09)](https://www.meetup.com/awskrug/events/260905755/)
+[소성운님](https://www.facebook.com/imso13) - [핸즈온: AWS 기반 지속 가능한 데이터 분석하기](https://github.com/awskrug/datascience-group/tree/master/workshop-sustainable_data_analysis)
+
+
 ## [제21회 (19/04/04)](https://www.meetup.com/awskrug/events/259927842/)
 김재철님 - [미움 받을 용기 : 저 팀은 뭘 안다고 추천한다고 들쑤시고 다니는건가.](https://www.slideshare.net/JaeCheolKim10/ss-140767789)
 
