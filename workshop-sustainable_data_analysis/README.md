@@ -30,10 +30,18 @@ Tableau는 데이터를 분석하고 시각화해주는 엔드투엔드 BI Tool�
 시작하기에 앞서서 생성한 EMR 클러스터에 ssh 접속을 위해 EC2키페어를 생성합니다.
   - EC2 콘솔메뉴로 이동 (https://ap-northeast-2.console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2)
   - *키페어* 메뉴에 *키페어 생성* 버튼을 눌러서 키페어를 생성합니다. 키페어 생성 즉시 브라우저에서 .pem 파일 하나가 다운로드 됩니다.
-  
+
+```
+키페어 이름 :        ds-handson-20190509
+```
+
   ![EC2 키페어 생성하기](./img/emr-006.png)
   
-  - 아래 명령어로 pem 파일에 권한을 변경합니다.
+  - 윈도우사용자는 Putty등을 이용하여 SSH 접속이 가능합니다.
+
+  https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/putty.html
+  
+  - MAC사용자는 키파일을 사용하기 위해 아래 명령어로 pem 파일에 권한을 변경합니다.
   
   ```
   chmod 400 ds-handson-20190509.pem
