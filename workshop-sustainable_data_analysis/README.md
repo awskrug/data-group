@@ -168,20 +168,26 @@ ex) http://ec2-**-***-***-**.ap-northeast-1.compute.amazonaws.com:8890
 ## 데이터셋 준비하기
 핸즈온에 사용할 데이터는 [SKT Big Data Hub](https://www.bigdatahub.co.kr)에서 제공하는 배달업종 이용현황 분석 2018년 데이터입니다. 사이트에 가보시면 회원가입 후 직접 다운로드가 가능하며 공개된 다양한 종류의 데이터가 많으니 확인해보시기 바랍니다.
 
-데이터는 미리 받아서 월별로 폴더트리를 만들어서 S3에 업로드 해두었습니다. EMR 마스터에 ssh 접속한 상태에서 아래 명령어를 통해서 여러분의 S3에 업로드하세요. EMR 마스터 인스터스에는 AWS CLI가 이미 셋업되어 있어서 바로 업로드가 가능합니다.
+핸즈온 종료시점 이후 데이터를 github으로 변경하였습니다.
+[데이터 다운로드](https://github.com/awskrug/datascience-group/tree/master/workshop-sustainable_data_analysis/data)ㅇ
+위 링크에서 다운로드 후 압축을 해제하시면 csv파일이 나오는데, 해당 파일을 아래 경로에 업로드 해주세요.
 
-```
-# Bucket 생성
+*[your_id]-ds-handson-20190509*이라는 버켓을 생성하시고 original_data 폴더내에 업로드 해주세요.
+업로드 위치: s3://[your_id]-ds-handson-20190509/original_data/
+
+~~데이터는 미리 받아서 월별로 폴더트리를 만들어서 S3에 업로드 해두었습니다. EMR 마스터에 ssh 접속한 상태에서 아래 명령어를 통해서 여러분의 S3에 업로드하세요. EMR 마스터 인스터스에는 AWS CLI가 이미 셋업되어 있어서 바로 업로드가 가능합니다.~~
+
+~~- Bucket 생성
 aws s3 mb s3://[your_id]-ds-handson-20190509 --region ap-northeast-2
 
-# 파일 업로드
-aws s3 sync s3://data-ds-handson-20190509 s3://[your_id]-ds-handson-20190509/original_data --region ap-northeast-2
+~~- 파일 업로드~~
+~~aws s3 sync s3://data-ds-handson-20190509 s3://[your_id]-ds-handson-20190509/original_data --region ap-northeast-2~~
 
-# 업로드 확인
-aws s3 ls [your_id]-ds-handson-20190509/original_data/
-```
+~~- 업로드 확인~~
+~~aws s3 ls [your_id]-ds-handson-20190509/original_data/~~
 
-위와 같이 *aws s3 ls* 명령어로 확인하거나 직접 S3 콘솔에서 파일이 업로드 되어있으면 준비가 완료 되었습니다.
+
+~~위와 같이 *aws s3 ls* 명령어로 확인하거나 직접 S3 콘솔에서 파일이 업로드 되어있으면 준비가 완료 되었습니다.~~
 
 ## Zeppelin을 이용하여 데이터 전처리
 
