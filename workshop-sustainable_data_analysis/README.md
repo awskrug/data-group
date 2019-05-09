@@ -102,7 +102,8 @@ Tableau는 데이터를 분석하고 시각화해주는 엔드투엔드 BI Tool�
 
 ![ElasticMapReduce-master 보안그룹 규칙편집](./img/emr-009.png)
 
-- 8890 포트 (Zeppelin 사용) 22 포트 (ssh 접속)을 사용하는 접근 가능한 소스에 *내 IP*를 추가합니다.
+- 8890 포트 (Zeppelin 사용) 22 포트 (ssh 접속)을 사용하는 접근 가능한 소스에 *접속하는 PC의 Public IP*를 추가합니다.
+- 접속하는 PC의 Public IP는 http://www.findip.kr 등을 사용하면 쉽게 알 수 있습니다.
 
 ![ElasticMapReduce-master 보안그룹 접속허용](./img/emr-010.png)
 
@@ -113,24 +114,43 @@ Tableau는 데이터를 분석하고 시각화해주는 엔드투엔드 BI Tool�
 ex) http://ec2-**-***-***-**.ap-northeast-1.compute.amazonaws.com:8890
 ```
 
-- 데이터를 Zeppelin을 통해 만지기 전에 간다한 설정들을 해두겠습니다.
+- 데이터를 Zeppelin을 통해 만지기 전에 간다한 설정들을 해두겠습니다. 
   - [간편 설정을 위한 쉘스크립트](https://github.com/awskrug/datascience-group/blob/master/workshop-sustainable_data_analysis/env_emr_spark_zeppelin.sh)를 Working Directory에 다운받습니다.
-  - 설정에 필요한 명령어들 묶음인 쉘스크립트 파일을 업로드 합니다.
+  - 윈도우 사용자:
   
-    ```
-    mkdir ds_handson_20190509
-    cd ./ds_handson_20190509
-    scp -i [KEY_PAIR_PATH] ./env_emr_spark_zeppelin.sh hadoop@[MASTER_PUBLIC_DNS]:/home/hadoop/env_emr_spark_zeppelin.sh
-    ```
-  
-  - 터미널에서 해당 마스터 노드에 ssh 접속합니다. 이전에 저장된 .pem 키를 사용합니다.
-  
-    ```
-    ssh -i [KEY_PAIR_PATH] hadoop@[MASTER_PUBLIC_DNS]
-    ```
-  
-  - ssh접속에 성공하였으면 아래 화면이 확인 가능합니다. ls 명령어를 통해 1번 과정에서 복사했던 쉘스크립트 파일이 확인 가능합니다.
-  
+  Putty로 MasterNode에 접속합니다.
+  ![Putty 접속 화면](./img/emr-020.png)
+  ```
+  Host Name :     마스터 퍼블릭 DNS
+  Data - Auto-login username : hadoop
+  SSH - Auth - Private key file for authentication :  ppk파일로 변환한 키페어파일(ds-handson-20190509.ppk)
+  ```
+  MasterNode에 접속하면 다음 명령어로 핸즈온에 사용할 쉘스크립트 파일을 다운로드합니다.
+  ```
+    wget https://raw.githubusercontent.com/awskrug/datascience-group/master/workshop-sustainable_data_analysis/env_emr_spark_zeppelin.sh
+   ```
+
+  - Mac사용자 : 
+    - 설정에 필요한 명령어들 묶음인 쉘스크립트 파일을 업로드 합니다.
+    
+
+
+
+
+      ```
+      mkdir ds_handson_20190509
+      cd ./ds_handson_20190509
+      scp -i [KEY_PAIR_PATH] ./env_emr_spark_zeppelin.sh hadoop@[MASTER_PUBLIC_DNS]:/home/hadoop/env_emr_spark_zeppelin.sh
+      ```
+    
+    - 터미널에서 해당 마스터 노드에 ssh 접속합니다. 이전에 저장된 .pem 키를 사용합니다.
+    
+      ```
+      ssh -i [KEY_PAIR_PATH] hadoop@[MASTER_PUBLIC_DNS]
+      ```
+    
+    - ssh접속에 성공하였으면 아래 화면이 확인 가능합니다. ls 명령어를 통해 1번 과정에서 복사했던 쉘스크립트 파일이 확인 가능합니다.
+    
   ![ssh 접속 화면](./img/emr-011.png)
   
   - 쉘스크립트 실행합니다. Zeppelin ID는 ds_handson_20190509로 미리 설정했습니다. 쉘스크립트가 실행되면 Zeppelin 비번을 한번 입력해주셔야 합니다.
