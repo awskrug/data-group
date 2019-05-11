@@ -119,16 +119,20 @@ ex) http://ec2-**-***-***-**.ap-northeast-1.compute.amazonaws.com:8890
   - 윈도우 사용자:
   
   Putty로 MasterNode에 접속합니다.
+  
   ![Putty 접속 화면](./img/emr-020.png)
-  ```
-  Host Name :     마스터 퍼블릭 DNS
-  Data - Auto-login username : hadoop
-  SSH - Auth - Private key file for authentication :  ppk파일로 변환한 키페어파일(ds-handson-20190509.ppk)
-  ```
+  
+    ```
+    Host Name :     마스터 퍼블릭 DNS
+    Data - Auto-login username : hadoop
+    SSH - Auth - Private key file for authentication :  ppk파일로 변환한 키페어파일(ds-handson-20190509.ppk)
+    ```
+  
   MasterNode에 접속하면 다음 명령어로 핸즈온에 사용할 쉘스크립트 파일을 다운로드합니다.
-  ```
-    wget https://raw.githubusercontent.com/awskrug/datascience-group/master/workshop-sustainable_data_analysis/env_emr_spark_zeppelin.sh
-   ```
+  
+    ```
+      wget https://raw.githubusercontent.com/awskrug/datascience-group/master/workshop-sustainable_data_analysis/env_emr_spark_zeppelin.sh
+    ```
 
   - Mac사용자 : 
     - 설정에 필요한 명령어들 묶음인 쉘스크립트 파일을 업로드 합니다.
@@ -155,7 +159,7 @@ ex) http://ec2-**-***-***-**.ap-northeast-1.compute.amazonaws.com:8890
     sh env_emr_spark_zeppelin.sh
     ```
   
-    설정 완료까지 수분이 소요됩니다.
+  - 설정 완료까지 수분이 소요됩니다.
   
 - Zeppelin에 접속하여 id: ds_handson_20190509 pw: {입력하신 패스워드}로 접속이 정상적으로 되는지 확인합니다.
   
