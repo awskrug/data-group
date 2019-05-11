@@ -115,7 +115,7 @@ ex) http://ec2-**-***-***-**.ap-northeast-1.compute.amazonaws.com:8890
 ```
 
 - 데이터를 Zeppelin을 통해 만지기 전에 간다한 설정들을 해두겠습니다. 
-  - [간편 설정을 위한 쉘스크립트](https://github.com/awskrug/datascience-group/blob/master/workshop-sustainable_data_analysis/env_emr_spark_zeppelin.sh)를 Working Directory에 다운받습니다.
+- [간편 설정을 위한 쉘스크립트](https://github.com/awskrug/datascience-group/blob/master/workshop-sustainable_data_analysis/env_emr_spark_zeppelin.sh)를 Working Directory에 다운받습니다.
   - 윈도우 사용자:
   
   Putty로 MasterNode에 접속합니다.
@@ -133,10 +133,6 @@ ex) http://ec2-**-***-***-**.ap-northeast-1.compute.amazonaws.com:8890
   - Mac사용자 : 
     - 설정에 필요한 명령어들 묶음인 쉘스크립트 파일을 업로드 합니다.
     
-
-
-
-
       ```
       mkdir ds_handson_20190509
       cd ./ds_handson_20190509
@@ -168,11 +164,11 @@ ex) http://ec2-**-***-***-**.ap-northeast-1.compute.amazonaws.com:8890
 ## 데이터셋 준비하기
 핸즈온에 사용할 데이터는 [SKT Big Data Hub](https://www.bigdatahub.co.kr)에서 제공하는 배달업종 이용현황 분석 2018년 데이터입니다. 사이트에 가보시면 회원가입 후 직접 다운로드가 가능하며 공개된 다양한 종류의 데이터가 많으니 확인해보시기 바랍니다.
 
-핸즈온 종료시점 이후 데이터를 github으로 변경하였습니다.
-[데이터 다운로드](https://github.com/awskrug/datascience-group/tree/master/workshop-sustainable_data_analysis/data)ㅇ
+*핸즈온 종료시점 이후 데이터를 github으로 변경하였습니다.*
+[데이터 다운로드](https://github.com/awskrug/datascience-group/tree/master/workshop-sustainable_data_analysis/data)
 위 링크에서 다운로드 후 압축을 해제하시면 csv파일이 나오는데, 해당 파일을 아래 경로에 업로드 해주세요.
 
-S3에 *[your_id]-ds-handson-20190509*이라는 버켓을 생성하시고 original_data 폴더내에 업로드 해주세요.
+S3 콘솔로 이동해서 *[your_id]-ds-handson-20190509*이라는 버켓을 생성하시고 original_data 폴더내에 업로드 해주세요.
 업로드 위치: s3://[your_id]-ds-handson-20190509/original_data/
 
 ~~데이터는 미리 받아서 월별로 폴더트리를 만들어서 S3에 업로드 해두었습니다. EMR 마스터에 ssh 접속한 상태에서 아래 명령어를 통해서 여러분의 S3에 업로드하세요. EMR 마스터 인스터스에는 AWS CLI가 이미 셋업되어 있어서 바로 업로드가 가능합니다.~~
