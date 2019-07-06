@@ -1,5 +1,10 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
+## [제24회 (19/07/04)](https://www.meetup.com/awskrug/events/262466297/)
+[김민수님](https://www.facebook.com/kms0530) - [전혀 새로운 방법의 데이터 탐색](https://www.slideshare.net/SungWoonSo/tableau-153895650)
+
+[염성욱님](https://www.facebook.com/krazyeom) - [오픈소스 데이터분석 플랫폼Brightics Studio](https://www.slideshare.net/SungWoonSo/brightics-studio-awskrug)
+
 ## [제23회 (19/06/14)](https://www.meetup.com/awskrug/events/261891063/)
 [김태일님](https://www.facebook.com/cardia87) - [데이터 얼마까지 알아보고 오셨어요](https://www.slideshare.net/SungWoonSo/awskrug-149599892)
 
