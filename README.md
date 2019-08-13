@@ -1,7 +1,7 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
 ## [제25회 (19/08/08)](https://www.meetup.com/awskrug/events/262969227/)
-[이웅원님](https://www.facebook.com/dnddnjs) - [딥러닝으로 동네생활 게시글 필터링하기](https://)
+[이웅원님](https://www.facebook.com/dnddnjs) - [딥러닝으로 동네생활 게시글 필터링하기](https://docs.google.com/presentation/d/1hAkf3ZpFqRJz1OO4WJx5FE4-Q-l6w6JE38ZdvIHwRR0/edit?usp=sharing)
 
 [박훈님](https://www.facebook.com/1ambda) - [궁금한 이야기 Y ~ 그들이 AWS 위에서 데이터 파이프라인을 운영하는 법](https://docs.google.com/presentation/d/1_v-f5B67v-hcmEbltLEfjSS5MKKctztdAGZzEHs2DPM/edit?usp=sharing)
 
