@@ -1,5 +1,10 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
+## [제26회 (19/09/05)](https://www.meetup.com/awskrug/events/263962171/)
+[이광춘님](https://www.facebook.com/statkclee) - [데이터 과학자의 클라우드 블로그](https://statkclee.github.io/ds-authoring/ds-blog-aws-cloud.html)
+
+[정원희님](https://www.facebook.com/hee072794) - [데이터가 흐르는 팀 만들기](https://www.slideshare.net/SungWoonSo/ss-169469888)
+
 ## [제25회 (19/08/08)](https://www.meetup.com/awskrug/events/262969227/)
 [이웅원님](https://www.facebook.com/dnddnjs) - [딥러닝으로 동네생활 게시글 필터링하기](https://docs.google.com/presentation/d/1hAkf3ZpFqRJz1OO4WJx5FE4-Q-l6w6JE38ZdvIHwRR0/edit?usp=sharing)
 
