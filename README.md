@@ -1,5 +1,8 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
+## [제27회 (19/10/10)](https://www.meetup.com/awskrug/events/263962171/)
+[이주경님](https://www.facebook.com/lee.jukyung.58) - [사이드 프로젝트로 알아보는 검색 서비스 개발](https://www.slideshare.net/SungWoonSo/ss-182171211)
+
 ## [제26회 (19/09/05)](https://www.meetup.com/awskrug/events/263962171/)
 [이광춘님](https://www.facebook.com/statkclee) - [데이터 과학자의 클라우드 블로그](https://statkclee.github.io/ds-authoring/ds-blog-aws-cloud.html)
 
