@@ -1,5 +1,8 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
+## [제28회 (19/11/07)](https://www.meetup.com/awskrug/events/265674410/)
+[정창언님](https://www.facebook.com/changun.jung) - [Data Pipeline 개선 with Airflow](https://www.slideshare.net/changunjung/data-platform-data-pipelineairflow-kubernetes)
+
 ## [제27회 (19/10/10)](https://www.meetup.com/awskrug/events/263962171/)
 [이주경님](https://www.facebook.com/lee.jukyung.58) - [사이드 프로젝트로 알아보는 검색 서비스 개발](https://www.slideshare.net/SungWoonSo/ss-182171211)
 
