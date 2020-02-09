@@ -1,5 +1,8 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
+## [제29회 (20/02/06)](https://www.meetup.com/awskrug/events/268107011/)
+[박동현님](https://www.facebook.com/thomas.hyun.park) - [우리는 왜 Glue 를 버렸나?](https://www.slideshare.net/Thomas_Hyun_Park/20200206-glue)
+
 ## [제28회 (19/11/07)](https://www.meetup.com/awskrug/events/265674410/)
 [정창언님](https://www.facebook.com/changun.jung) - [Data Pipeline 개선 with Airflow](https://www.slideshare.net/changunjung/data-platform-data-pipelineairflow-kubernetes)
 
