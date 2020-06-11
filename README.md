@@ -1,4 +1,6 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
+## [제30회 (20/05/14)](https://www.meetup.com/awskrug/events/270477674/)
+[강웅석님](https://www.facebook.com/Woongseok.Kang) - [데이터 엔지니어가 실무에서 맞딱뜨리는 문제들](https://www.slideshare.net/SungWoonSo/awskrug-235407792)
 
 ## [제29회 (20/02/06)](https://www.meetup.com/awskrug/events/268107011/)
 [박동현님](https://www.facebook.com/thomas.hyun.park) - [우리는 왜 Glue 를 버렸나?](https://www.slideshare.net/Thomas_Hyun_Park/20200206-glue)
