@@ -1,4 +1,12 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
+
+## [제32회 (20/06/11)](https://www.meetup.com/awskrug/events/271075386/)
+[권낙주님](https://www.facebook.com/nakjoo.kwon.5) - CLASS101에서 Airflow와 Amazon EMR을 활용한 ETL 파이프라인 구축
+[-새션 영상-](https://youtu.be/ZhW0exu-woU)
+
+## [제31회 (20/06/11)](https://www.meetup.com/awskrug/events/271075386/)
+[권낙주님](https://www.facebook.com/nakjoo.kwon.5) - 분석가를 위한 AWS 기반의 Digital 플랫폼 구축 - 엔터프라이즈 회사들이 빅데이터 플랫폼을 구축하기 위해서 고려해야할 4가지
+
 ## [제30회 (20/05/14)](https://www.meetup.com/awskrug/events/270477674/)
 [강웅석님](https://www.facebook.com/Woongseok.Kang) - [데이터 엔지니어가 실무에서 맞딱뜨리는 문제들](https://www.slideshare.net/SungWoonSo/awskrug-235407792)
 
