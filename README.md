@@ -1,7 +1,7 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
 ## [제32회 (20/06/11)](https://www.meetup.com/awskrug/events/271075386/)
-[권낙주님](https://www.facebook.com/nakjoo.kwon.5) - CLASS101에서 Airflow와 Amazon EMR을 활용한 ETL 파이프라인 구축
+[조민구님](https://www.facebook.com/mingu.jo.10) - CLASS101에서 Airflow와 Amazon EMR을 활용한 ETL 파이프라인 구축
 [-새션 영상-](https://youtu.be/ZhW0exu-woU)
 
 ## [제31회 (20/06/11)](https://www.meetup.com/awskrug/events/271075386/)
