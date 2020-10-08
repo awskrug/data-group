@@ -1,7 +1,7 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
 ## [제33회 (20/10/08)](https://www.meetup.com/awskrug/events/273681692/)
-[차문수님](https://www.facebook.com/anstnzja) - 
+[차문수님](https://www.facebook.com/anstnzja) - [Introducing MLOps](https://github.com/awskrug/datascience-group/raw/master/deck/201008Introducing%20MLOps.pdf)
 [-새션 영상-](https://youtu.be/CjloF7g-5O4)
 
 ## [제32회 (20/09/03)](https://www.meetup.com/awskrug/events/272688999/)
