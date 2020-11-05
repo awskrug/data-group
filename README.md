@@ -1,12 +1,17 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
+
+## [제34회 (20/11/05)](https://www.meetup.com/awskrug/events/274034721/)
+[임광빈님](https://www.facebook.com/dlarhkdqls12) - [Amazon Athena를 활용한 AB테스트](https://docs.google.com/presentation/d/1HDsfaDfsD5ehsXZ7l6bHb6YsE4dClG4ihGU3TzQwgPI)
+[-새션 영상-](https://youtu.be/8OxY5JSDc5U)
+
 ## [제33회 (20/10/08)](https://www.meetup.com/awskrug/events/273681692/)
 [차문수님](https://www.facebook.com/anstnzja) - [Introducing MLOps](https://github.com/awskrug/datascience-group/raw/master/deck/201008Introducing%20MLOps.pdf)
 [-새션 영상-](https://youtu.be/CjloF7g-5O4)
 
 ## [제32회 (20/09/03)](https://www.meetup.com/awskrug/events/272688999/)
 [조민구님](https://www.facebook.com/mingu.jo.10) - CLASS101에서 Airflow와 Amazon EMR을 활용한 ETL 파이프라인 구축
-[-새션 영상-](https://youtu.be/ZhW0exu-woU)
+[-새션 영상-](https://youtu.be/xyTLnQXHroU)
 
 ## [제31회 (20/06/11)](https://www.meetup.com/awskrug/events/271075386/)
 [권낙주님](https://www.facebook.com/nakjoo.kwon.5) - 분석가를 위한 AWS 기반의 Digital 플랫폼 구축 - 엔터프라이즈 회사들이 빅데이터 플랫폼을 구축하기 위해서 고려해야할 4가지
