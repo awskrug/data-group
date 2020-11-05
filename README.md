@@ -1,6 +1,5 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
-
 ## [제34회 (20/11/05)](https://www.meetup.com/awskrug/events/274034721/)
 [임광빈님](https://www.facebook.com/dlarhkdqls12) - [Amazon Athena를 활용한 AB테스트](https://docs.google.com/presentation/d/1HDsfaDfsD5ehsXZ7l6bHb6YsE4dClG4ihGU3TzQwgPI)
 [-새션 영상-](https://youtu.be/8OxY5JSDc5U)
