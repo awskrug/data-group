@@ -1,5 +1,13 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
+## [제36회 (21/02/04)](https://www.meetup.com/awskrug/events/275959628/)
+[김기영님](https://www.facebook.com/hikiyoung) - AWS re:Invent 2020 analytics recap
+[-새션 영상-](https://youtu.be/ie3io8_0gVQ)
+
+## [제35회 (20/12/05)](https://www.meetup.com/awskrug/events/274804224/)
+[강웅석님](https://www.facebook.com/Woongseok.Kang) - [Let the Airflow in AWS](https://nephtyws.github.io/data/awskrug-ds-presentation-2/)
+[-새션 영상-](https://youtu.be/Y8moFZ80jUQ)
+
 ## [제34회 (20/11/05)](https://www.meetup.com/awskrug/events/274034721/)
 [임광빈님](https://www.facebook.com/dlarhkdqls12) - [Amazon Athena를 활용한 AB테스트](https://docs.google.com/presentation/d/1HDsfaDfsD5ehsXZ7l6bHb6YsE4dClG4ihGU3TzQwgPI)
 [-새션 영상-](https://youtu.be/OMUklm2_zGs)
