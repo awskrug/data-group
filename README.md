@@ -4,7 +4,7 @@
 [김기영님](https://www.facebook.com/hikiyoung) - AWS re:Invent 2020 analytics recap
 [-새션 영상-](https://youtu.be/ie3io8_0gVQ)
 
-## [제35회 (20/12/05)](https://www.meetup.com/awskrug/events/274804224/)
+## [제35회 (20/12/03)](https://www.meetup.com/awskrug/events/274804224/)
 [강웅석님](https://www.facebook.com/Woongseok.Kang) - [Let the Airflow in AWS](https://nephtyws.github.io/data/awskrug-ds-presentation-2/)
 [-새션 영상-](https://youtu.be/Y8moFZ80jUQ)
 
