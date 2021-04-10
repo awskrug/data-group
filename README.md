@@ -2,7 +2,9 @@
 
 ## [제37회 (2021/04/08)](https://www.meetup.com/awskrug/events/277248595/)
 [정세훈님](https://www.facebook.com/jung.sehun.10) - [Data Connector for SAP AWS Marketplace 등록 수기, SAP에서 Cloud(AWS)로](deck/20210408-3.pdf)
+
 방현배님 - [AWS Marketplace 등록 대행 서비스 소개](deck/20210408-2.pdf)
+
 김정민님 - [AWS Partner Network (APN) - ISV 파트너 프로그램 가이드](deck/20210408-1.pdf)
 
 ## [제36회 (2021/02/04)](https://www.meetup.com/awskrug/events/275959628/)
