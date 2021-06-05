@@ -1,5 +1,12 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
+## [제39회 (2021/06/03)](https://www.meetup.com/ko-KR/awskrug/events/278249190/)
+[디큐님](https://www.facebook.com/GyuminPaul) - [데이터사이언스 없이 추천시스템 만들기](deck/210603-aws_recom_ds.pdf)
+[-세션 영상-](https://youtu.be/bOjE3IWYSS8)
+
+## [제38회 (2021/05/13)](https://www.meetup.com/ko-KR/awskrug/events/277564334/)
+[최원영님](https://www.facebook.com/Choi.Anderson) - [AWS MSK 소개 및 활용방안](https://www.slideshare.net/WonyoungChoi2/introduce-apache-kafka-and-aws-msk/)
+
 ## [제37회 (2021/04/08)](https://www.meetup.com/awskrug/events/277248595/)
 [정세훈님](https://www.facebook.com/jung.sehun.10) - [Data Connector for SAP AWS Marketplace 등록 수기, SAP에서 Cloud(AWS)로](deck/20210408-3.pdf)
 
