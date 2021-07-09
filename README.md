@@ -1,5 +1,9 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
 
+## [제40회 (2021/07/08)](https://www.meetup.com/ko-KR/awskrug/events/278972199)
+[전희원님](https://www.facebook.com/gogamza) - [Neural IR 101 - KoSentenceBART and Jina](https://tiny.one/2ukew9d6)
+
+
 ## [제39회 (2021/06/03)](https://www.meetup.com/ko-KR/awskrug/events/278249190/)
 [디큐님](https://www.facebook.com/GyuminPaul) - [데이터사이언스 없이 추천시스템 만들기](deck/210603-aws_recom_ds.pdf)
 [-세션 영상-](https://youtu.be/bOjE3IWYSS8)
