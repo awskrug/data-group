@@ -1,8 +1,30 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
+## [제47회 (2022/06/30)](https://www.meetup.com/awskrug/events/286539533)
+[류경윤님](https://www.facebook.com/rky0930) - [피쳐스토어로 머신러닝 훈련 데이터와 서빙 데이터 일관성 있게 유지하기](https://docs.google.com/presentation/d/1RCXOCfYbYWlb0SyiCLuSpXaKWIKZwEE-kJabcwnRWcM/edit?fbclid=IwAR1jx6MVewiI1gba3c1Z0t-KbuA8wN-N7QDllo6NyJBDEvMvzJJW5J4BFco#slide=id.p)
+
+## [제46회 (2022/04/28)](https://www.meetup.com/awskrug/events/285054065)
+이성인님 - 비전공자 주니어 ML 엔지니어로 살아남기
+
+## [제45회 (2022/04/07)](https://www.meetup.com/awskrug/events/284545979)
+남혜인님 - AWS를 이용한 서버리스 마케팅 데이터 분석 자동화
+
+## [제44회 (2022/03/17)](https://www.meetup.com/awskrug/events/284369251)
+[성순모님](https://www.facebook.com/groups/189675924467773/user/100000538494076/?__cft__[0]=AZUxC96TDA4YqYHzM7DOeewrIUlQtdIMlwbycEFX2yd1BNTVadpxqTDC0nKuQz-oqjH8bKzBmWLWxSpMExDWkCkQbl9df07-ym5veIEnN172CjPyaMVMQD0Ze92QML2x8a_NWQFCeep7hS8m-3mBaODj&__tn__=-]-UK-R) - SageMaker+Fast.ai를 이용한 Computer Vision 모델링 경험 및 리인벤트 21년 후기 공유
+
+## [제43회 (2022/02/10)](https://www.meetup.com/awskrug/events/283356175)
+김대근님 (AWS Sr. AI/ML Specialist SA)
+
+## [제42회 (2021/12/09)](https://www.meetup.com/awskrug/events/282303935)
+[박훈님](https://www.facebook.com/1ambda) - [머신러닝 유니버스를 여행하는 히치하이커를 위한 데이터 팀이 AWS 위에서 Kubernetes를 활용하는 법](https://speakerdeck.com/1ambda/machine-learning-on-kubernetes)
+
+## [제41회 (2021/08/12)](https://www.meetup.com/awskrug/events/279585197)
+박지혜님 - [Sagemaker를 이용한 후기 이미지 자동 검수 모델 만들기](https://www.youtube.com/watch?v=qMuhF1efUso)
+
+김영익님 - [(데이터를 다룰 엔지니어들을 위한) 알아두면 쓸데없지만 (혹시나) 신비할지도 모르는 잡학사전](https://www.slideshare.net/youngick/ss-249961617)
+[-세션 영상-](https://www.youtube.com/watch?v=qMuhF1efUso)
 
 ## [제40회 (2021/07/08)](https://www.meetup.com/ko-KR/awskrug/events/278972199)
 [전희원님](https://www.facebook.com/gogamza) - [Neural IR 101 - KoSentenceBART and Jina](https://tiny.one/2ukew9d6)
-
 
 ## [제39회 (2021/06/03)](https://www.meetup.com/ko-KR/awskrug/events/278249190/)
 [디큐님](https://www.facebook.com/GyuminPaul) - [데이터사이언스 없이 추천시스템 만들기](deck/210603-aws_recom_ds.pdf)
