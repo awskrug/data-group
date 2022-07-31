@@ -20,8 +20,8 @@
 ## [제41회 (2021/08/12)](https://www.meetup.com/awskrug/events/279585197)
 박지혜님 - [Sagemaker를 이용한 후기 이미지 자동 검수 모델 만들기](https://www.youtube.com/watch?v=qMuhF1efUso)
 
-김영익님 - [(데이터를 다룰 엔지니어들을 위한) 알아두면 쓸데없지만 (혹시나) 신비할지도 모르는 잡학사전](https://www.slideshare.net/youngick/ss-249961617)
-[-세션 영상-](https://www.youtube.com/watch?v=qMuhF1efUso)
+김영익님 - [(데이터를 다룰 엔지니어들을 위한) 알아두면 쓸데없지만 (혹시나) 신비할지도 모르는 잡학사전](https://www.slideshare.net/youngick/ss-249961617)  
+[-전체 세션 영상-](https://www.youtube.com/watch?v=qMuhF1efUso)
 
 ## [제40회 (2021/07/08)](https://www.meetup.com/ko-KR/awskrug/events/278972199)
 [전희원님](https://www.facebook.com/gogamza) - [Neural IR 101 - KoSentenceBART and Jina](https://tiny.one/2ukew9d6)
