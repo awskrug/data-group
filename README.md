@@ -1,4 +1,10 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
+## [제49회 (2022/09/22)](https://www.meetup.com/awskrug/events/288320490/)
+[강웅석님](https://www.facebook.com/Woongseok.Kang/) - [클라우드 데이터 플랫폼을 구성하는 최신 기술 알아보기](https://speakerdeck.com/woongseok/09-balpyo-keulraudeu-deiteo-peulraespomeul-guseonghaneun-coesin-gisul-alabogi)
+
+## [제48회 (2022/08/18)](https://www.meetup.com/awskrug/events/287577524/)
+[이세환님](https://www.facebook.com/silveris23/) - [Neptune 101 Hands-on - GraphDB 한 번 해보자!](https://samworks.notion.site/Neptune-Handson-78224d45316b420d925b80ed52d4b603)
+
 ## [제47회 (2022/06/30)](https://www.meetup.com/awskrug/events/286539533)
 [류경윤님](https://www.facebook.com/rky0930) - [피쳐스토어로 머신러닝 훈련 데이터와 서빙 데이터 일관성 있게 유지하기](https://docs.google.com/presentation/d/1RCXOCfYbYWlb0SyiCLuSpXaKWIKZwEE-kJabcwnRWcM/edit?fbclid=IwAR1jx6MVewiI1gba3c1Z0t-KbuA8wN-N7QDllo6NyJBDEvMvzJJW5J4BFco#slide=id.p)
 
@@ -20,8 +26,8 @@
 ## [제41회 (2021/08/12)](https://www.meetup.com/awskrug/events/279585197)
 박지혜님 - [Sagemaker를 이용한 후기 이미지 자동 검수 모델 만들기](https://www.youtube.com/watch?v=qMuhF1efUso)
 
-김영익님 - [(데이터를 다룰 엔지니어들을 위한) 알아두면 쓸데없지만 (혹시나) 신비할지도 모르는 잡학사전](https://www.slideshare.net/youngick/ss-249961617)  
-[-전체 세션 영상-](https://www.youtube.com/watch?v=qMuhF1efUso)
+김영익님 - [(데이터를 다룰 엔지니어들을 위한) 알아두면 쓸데없지만 (혹시나) 신비할지도 모르는 잡학사전](https://www.slideshare.net/youngick/ss-249961617)
+[-세션 영상-](https://www.youtube.com/watch?v=qMuhF1efUso)
 
 ## [제40회 (2021/07/08)](https://www.meetup.com/ko-KR/awskrug/events/278972199)
 [전희원님](https://www.facebook.com/gogamza) - [Neural IR 101 - KoSentenceBART and Jina](https://tiny.one/2ukew9d6)
