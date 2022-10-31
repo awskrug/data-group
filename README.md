@@ -1,4 +1,7 @@
 # 한국AWS사용자그룹 데이터사이언스 모임 자료
+## [제50회 (2022/10/27)](https://www.meetup.com/awskrug/events/289178354/)
+[윤평호님](https://www.facebook.com/Woongseok.Kang/) - [AWS Machine Learning Specialty 자격증 도전하기](https://bit.ly/3DF3diA)
+
 ## [제49회 (2022/09/22)](https://www.meetup.com/awskrug/events/288320490/)
 [강웅석님](https://www.facebook.com/Woongseok.Kang/) - [클라우드 데이터 플랫폼을 구성하는 최신 기술 알아보기](https://speakerdeck.com/woongseok/09-balpyo-keulraudeu-deiteo-peulraespomeul-guseonghaneun-coesin-gisul-alabogi)
 
