@@ -1,6 +1,15 @@
-# 한국AWS사용자그룹 데이터사이언스 모임 자료
+# 한국AWS사용자그룹 데이터 모임 자료
+## [제52회 (2023/04/13)](https://www.meetup.com/awskrug/events/292399333/)
+
+본 세션은 AWS Summit 2023에서 더욱 자세히 확인하실 수 있습니다. [바로가기](https://aws.amazon.com/ko/events/summits/seoul/agenda/)  
+[이세환님](https://www.facebook.com/silveris23/) - Amazon Neptune을 이용한 추천 서비스 구현하기  
+[이상현님](https://www.facebook.com/sanghyun.lee.7737) - 생성 AI 모델의 임베딩 벡터를 이용한 서버리스 추천 검색 구현하기
+
+## [제51회 (2022/12/14)](https://www.meetup.com/awskrug/events/289741122/)
+[최종원님](https://www.facebook.com/jongwon.choi.7509) - [데이터팀에서 Amazon ECS로 Airflow 홀로 서기](https://www.youtube.com/watch?v=s6NMpOA8TUU&ab_channel=AWS%ED%95%9C%EA%B5%AD%EC%82%AC%EC%9A%A9%EC%9E%90%EB%AA%A8%EC%9E%84-AWSKRUG)
+
 ## [제50회 (2022/10/27)](https://www.meetup.com/awskrug/events/289178354/)
-[윤평호님](https://www.facebook.com/Woongseok.Kang/) - [AWS Machine Learning Specialty 자격증 도전하기](https://bit.ly/3DF3diA)
+[윤평호님](https://www.facebook.com/lakeofpeace) - [AWS Machine Learning Specialty 자격증 도전하기](https://bit.ly/3DF3diA)
 
 ## [제49회 (2022/09/22)](https://www.meetup.com/awskrug/events/288320490/)
 [강웅석님](https://www.facebook.com/Woongseok.Kang/) - [클라우드 데이터 플랫폼을 구성하는 최신 기술 알아보기](https://speakerdeck.com/woongseok/09-balpyo-keulraudeu-deiteo-peulraespomeul-guseonghaneun-coesin-gisul-alabogi)
@@ -127,7 +136,7 @@
 김상우님 - [Spark ML 입문](https://www.slideshare.net/secret/NH7e1FdP3ad9nK)
 
 ## [제16회 (2018/10/04)](https://www.meetup.com/ko-KR/awskrug/events/255084203/)
-[이상현님](https://www.facebook.com/changhyun.lee.37) - [Spark SQL 로 여러 데이터 소스에 한번에 쿼리하기](https://docs.google.com/presentation/d/1rvLV5CT1p1nocpyLxIWTeWctrTd7jzT2ivdFjd08aC4/edit?usp=sharing)
+[이창현님](https://www.facebook.com/changhyun.lee.37) - [Spark SQL 로 여러 데이터 소스에 한번에 쿼리하기](https://docs.google.com/presentation/d/1rvLV5CT1p1nocpyLxIWTeWctrTd7jzT2ivdFjd08aC4/edit?usp=sharing)
 
 ## [제15회 (2018/09/06)](https://www.meetup.com/ko-KR/awskrug/events/252837743/)
 [이세환님](https://www.facebook.com/silveris23) - Overview Spark & Zeppelin
