@@ -1,4 +1,8 @@
 # 한국AWS사용자그룹 데이터 모임 자료
+
+## [제53회 (2023/06/22)](https://www.meetup.com/awskrug/events/294032028/)
+이명휘님 - 트위터의 추천 시스템 파헤치기 [발표장표](https://www.slideshare.net/SungWoonSo/ss-258926687) [Youtube](https://youtu.be/VM8f5zXX5oM)
+
 ## [제52회 (2023/04/13)](https://www.meetup.com/awskrug/events/292399333/)
 
 본 세션은 AWS Summit 2023에서 더욱 자세히 확인하실 수 있습니다. [바로가기](https://aws.amazon.com/ko/events/summits/seoul/agenda/)  
