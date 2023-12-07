@@ -1,11 +1,11 @@
 # 한국AWS사용자그룹 데이터 모임 자료
 
 ## [제57회 (2023/12/07)](https://www.meetup.com/awskrug/events/297523957)
-최종원님 - SQL 쿼리 생성 엔지니어 슬랙봇 만들기
+최종원님 - SQL 쿼리 생성 엔지니어 슬랙봇 만들기
 김대근님 - Model fine-tuning on AWS - 실전! 파인 튜닝 꿀팁 대방출!!
 
 ## [제56회 (2023/09/20)](https://www.meetup.com/awskrug/events/295604795/)
-김영민님 - 스테이블 디퓨전 모델 파인 튜닝을 통한 버추얼 패션 스타일링
+김영민님 - 스테이블 디퓨전 모델 파인 튜닝을 통한 버추얼 패션 스타일링
 
 ## [제55회 (2023/07/27)](https://www.meetup.com/awskrug/events/294610861/)
 서진호님 - AWS Sagemaker를 이용한 MLOps 와 LLMOps
