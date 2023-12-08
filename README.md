@@ -1,7 +1,7 @@
 # 한국AWS사용자그룹 데이터 모임 자료
 
 ## [제56회 (2023/12/07)](https://www.meetup.com/awskrug/events/297523957)
-최종원님 - SQL 쿼리 생성 엔지니어 슬랙봇 만들기  
+최종원님 - SQL 쿼리 생성 엔지니어 슬랙봇 만들기 [발표자료](https://www.figma.com/proto/dlfvNtplxH5zOccjX5Pjsq/AWS-KRUG%3A-SQL-%EC%BF%BC%EB%A6%AC-%EC%83%9D%EC%84%B1-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4-%40Data-Bolt?type=design&node-id=57-637&t=YkJsHcce7dPcQquT-1&scaling=contain&page-id=57%3A636&mode=design)  
 김대근님 - Model fine-tuning on AWS - 실전! 파인 튜닝 꿀팁 대방출!!
 
 ## [제55회 (2023/09/20)](https://www.meetup.com/awskrug/events/295604795/)
