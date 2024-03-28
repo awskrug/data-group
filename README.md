@@ -2,9 +2,15 @@
 
 > 한국AWS사용자그룹 데이터 모임 일정 확인 및 참가 신청은 [meetup.com](https://www.meetup.com/ko-KR/awskrug/)에서 하실 수 있습니다.
 
+![image](https://github.com/awskrug/data-group/assets/58945760/f2dc09bc-e26e-4423-a8c7-9ba4b9444314)
+
 ## [제57회 (2024/03/21)](https://www.meetup.com/ko-KR/awskrug/events/299642049/)
-김평권님 - Data Lake 에서 Lake House 로 변환하기 위한 오픈테이블 선택<br>
-[이세환님](https://www.facebook.com/silveris23/) - [meilisearch 로 간단하게 키워드+시맨틱 검색 구현해보기](https://samworks.notion.site/meilisearch-RAG-0d9d1010fdf9493cb5d342cc6d0c84b7?pvs=4)
+<img src="https://github.com/awskrug/data-group/assets/58945760/f9060437-9c4f-45b5-87cc-8dd192aeab4e" alt="image" style="width: 70%;">  
+
+김평권님(주임연구원, 아워컴즈) - Data Lake 에서 Lake House 로 변환하기 위한 오픈테이블 선택<br>
+[이세환님(데이터 그로스 팀장, 메디스트림)](https://www.facebook.com/silveris23/) - [meilisearch 로 간단하게 키워드+시맨틱 검색 구현해보기](https://samworks.notion.site/meilisearch-RAG-0d9d1010fdf9493cb5d342cc6d0c84b7?pvs=4)  
+
+
 
 ## [제56회 (2023/12/07)](https://www.meetup.com/awskrug/events/297523957)
 최종원님 - SQL 쿼리 생성 엔지니어 슬랙봇 만들기 [발표자료](https://www.figma.com/proto/dlfvNtplxH5zOccjX5Pjsq/AWS-KRUG%3A-SQL-%EC%BF%BC%EB%A6%AC-%EC%83%9D%EC%84%B1-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4-%40Data-Bolt?type=design&node-id=57-637&t=YkJsHcce7dPcQquT-1&scaling=contain&page-id=57%3A636&mode=design)  
