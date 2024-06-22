@@ -4,6 +4,9 @@
 
 ![image](https://github.com/awskrug/data-group/assets/58945760/f2dc09bc-e26e-4423-a8c7-9ba4b9444314)
 
+## [제58회 (2024/06/20)](https://www.meetup.com/awskrug/events/301415178/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link)
+<img src="https://github.com/awskrug/data-group/assets/58945760/ef47d63c-5ab2-4a19-882a-a6c7344dcd0e" alt="image" style="width: 70%;"><br>류중경님(데이터 엔지니어, 메디스트림), [이세환님(데이터 그로스 팀장, 메디스트림)](https://www.facebook.com/silveris23/) - [AWS Bedrock을 활용한 치과 도메인 특화 QnA 챗봇 개발(삽질기)](https://drive.google.com/drive/folders/16dzPlEBOnq6F7P9gKIIL_anufhh8q6Ax?usp=sharing)
+
 ## [제57회 (2024/03/21)](https://www.meetup.com/ko-KR/awskrug/events/299642049/)
 <img src="https://github.com/awskrug/data-group/assets/58945760/f9060437-9c4f-45b5-87cc-8dd192aeab4e" alt="image" style="width: 70%;">  
 
