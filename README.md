@@ -4,6 +4,10 @@
 
 ![image](https://github.com/awskrug/data-group/assets/58945760/f2dc09bc-e26e-4423-a8c7-9ba4b9444314)
 
+## [제59회 (2024/11/08)](https://www.meetup.com/awskrug/events/303763073/?eventOrigin=group_events_list)
+AI Agentic Workflow: 단순 업무 보조에서 비즈니스 솔루션 제공자로 - 조나스 김 AWS 시니어 ML 컨설턴트
+본 세션에서는 AI 에이전트 기반 워크플로의 개념과 그 잠재력을 심도 있게 탐구합니다. 에이전트 기반 워크플로의 정의, 구현 패턴, 활용 가능한 서비스들을 살펴보고, 이를 실제로 데모를 통해 확인합니다.
+
 ## [제58회 (2024/06/20)](https://www.meetup.com/awskrug/events/301415178/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link)
 <img src="https://github.com/awskrug/data-group/assets/58945760/ef47d63c-5ab2-4a19-882a-a6c7344dcd0e" alt="image" style="width: 70%;"><br>[류중경님(데이터 엔지니어, 메디스트림)](https://www.linkedin.com/in/joungkyounglyoo/), [이세환님(데이터 그로스 팀장, 메디스트림)](https://www.linkedin.com/in/silveris23/) - [AWS Bedrock을 활용한 치과 도메인 특화 QnA 챗봇 개발(삽질기)](https://drive.google.com/drive/folders/16dzPlEBOnq6F7P9gKIIL_anufhh8q6Ax?usp=sharing)
 
