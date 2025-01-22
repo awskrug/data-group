@@ -14,7 +14,7 @@ AI Agentic Workflow: 단순 업무 보조에서 비즈니스 솔루션 제공자
 ## [제57회 (2024/03/21)](https://www.meetup.com/ko-KR/awskrug/events/299642049/)
 <img src="https://github.com/awskrug/data-group/assets/58945760/f9060437-9c4f-45b5-87cc-8dd192aeab4e" alt="image" style="width: 70%;">  
 
-김평권님(주임연구원, 아워컴즈) - Data Lake 에서 Lake House 로 변환하기 위한 오픈테이블 선택<br>
+[김평권님(주임연구원, 아워컴즈)](https://www.linkedin.com/in/pyeonggwon/) - [Data Lake 에서 Lake House 로 변환하기 위한 오픈테이블 선택](https://mega.nz/file/eYZVnBJA#YxoLmrlnzZ4M6LRydAABXEle7NivLJFxR7OJFcsbQ3g)<br>
 [이세환님(데이터 그로스 팀장, 메디스트림)](https://www.facebook.com/silveris23/) - [meilisearch 로 간단하게 키워드+시맨틱 검색 구현해보기](https://samworks.notion.site/meilisearch-RAG-0d9d1010fdf9493cb5d342cc6d0c84b7?pvs=4)  
 
 
