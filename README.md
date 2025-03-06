@@ -4,6 +4,13 @@
 
 ![image](https://github.com/awskrug/data-group/assets/58945760/f2dc09bc-e26e-4423-a8c7-9ba4b9444314)
 
+## [제61회 (2025/03/05)](https://www.meetup.com/awskrug/events/306046563/?eventOrigin=group_calendar)
+TDD를 통해 ModernBERT 밑바닥부터 이해하기 - Sigrid Jin (Jin Hyung Park) / ML Developer Relations Engineer / Sionic AI
+ModernBERT는 최신 논문과 기법이 집약된 임베딩/리랭커 모델 구조이며, RAG 등 다양한 자연어처리 파이프라인의 핵심 모델로 활용되고 있습니다. 하지만 내부 구조가 복잡하여, 모델링 코드만 가지고는 이해하기 어려운 부분이 많지요. Sionic AI 의 새로운 오픈소스는 이러한 ModernBERT 유닛 테스트 기반으로 단계별로 학습할 수 있게 구성한 프로젝트입니다. 특히 PyTorch로 작성된 모델을 TensorFlow로 직접 변환하는 과정을 담고 있어, 각 레이어와 함수가 어떤 역할을 하는지 테스트 시나리오를 통해 명확히 파악할 수 있습니다.
+
+## [제60회 (2025/02/06)](https://www.meetup.com/awskrug/events/305395195/?eventOrigin=group_events_list)
+트웰브랩스의 초거대 영상 이해 / 언어 모델 소개: 모델 학습부터 배포까지 - Aiden Lee / 트웰브랩스 공동창업자 / 최고기술책임자(CTO)
+
 ## [제59회 (2024/11/08)](https://www.meetup.com/awskrug/events/303763073/?eventOrigin=group_events_list)
 AI Agentic Workflow: 단순 업무 보조에서 비즈니스 솔루션 제공자로 - 조나스 김 AWS 시니어 ML 컨설턴트
 본 세션에서는 AI 에이전트 기반 워크플로의 개념과 그 잠재력을 심도 있게 탐구합니다. 에이전트 기반 워크플로의 정의, 구현 패턴, 활용 가능한 서비스들을 살펴보고, 이를 실제로 데모를 통해 확인합니다.
