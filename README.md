@@ -2,7 +2,11 @@
 
 > 한국AWS사용자그룹 데이터 모임 일정 확인 및 참가 신청은 [meetup.com](https://www.meetup.com/ko-KR/awskrug/)에서 하실 수 있습니다.
 
-![image](https://github.com/awskrug/data-group/assets/58945760/f2dc09bc-e26e-4423-a8c7-9ba4b9444314)
+![image](https://github.com/awskrug/awskrug-digital-assets/blob/master/data/data.png)
+
+## [제62회 (2025/04/01)](https://www.meetup.com/awskrug/events/306805701/?eventOrigin=group_events_list)
+Amazon Bedrock을 활용한 운영 환경에서의 서비스 사례를 소개합니다. 사용자 리뷰 작성부터 실시간 검수 결과 반영까지 리뷰 검수 자동화 시스템을 구축하여 운영 효율성을 극대화하고, 사용자 체형 데이터를 기반으로 맞춤형 상품을 추천하여 개인화 경험을 극대화한 사례를 공유합니다.
+Amazon Bedrock으로 만드는 AI 서비스: 검수 자동화부터 맞춤형 추천까지 - 이윤정 데이터 사이언티스트, 카카오스타일, 황윤관 데이터 사이언티스트, 카카오스타일
 
 ## [제61회 (2025/03/05)](https://www.meetup.com/awskrug/events/306046563/?eventOrigin=group_calendar)
 TDD를 통해 ModernBERT 밑바닥부터 이해하기 - Sigrid Jin (Jin Hyung Park) / ML Developer Relations Engineer / Sionic AI
