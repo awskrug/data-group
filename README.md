@@ -9,7 +9,7 @@ Amazon Bedrock을 활용한 운영 환경에서의 서비스 사례를 소개합
 Amazon Bedrock으로 만드는 AI 서비스: 검수 자동화부터 맞춤형 추천까지 - 이윤정 데이터 사이언티스트, 카카오스타일, 황윤관 데이터 사이언티스트, 카카오스타일
 
 ## [제61회 (2025/03/05)](https://www.meetup.com/awskrug/events/306046563/?eventOrigin=group_calendar)
-TDD를 통해 ModernBERT 밑바닥부터 이해하기 - Sigrid Jin (Jin Hyung Park) / ML Developer Relations Engineer / Sionic AI
+[TDD를 통해 ModernBERT 밑바닥부터 이해하기](https://blog.sionic.ai/modernbert) - [Sigrid Jin (Jin Hyung Park)](https://www.linkedin.com/in/sigridjineth/) / ML Developer Relations Engineer / Sionic AI
 ModernBERT는 최신 논문과 기법이 집약된 임베딩/리랭커 모델 구조이며, RAG 등 다양한 자연어처리 파이프라인의 핵심 모델로 활용되고 있습니다. 하지만 내부 구조가 복잡하여, 모델링 코드만 가지고는 이해하기 어려운 부분이 많지요. Sionic AI 의 새로운 오픈소스는 이러한 ModernBERT 유닛 테스트 기반으로 단계별로 학습할 수 있게 구성한 프로젝트입니다. 특히 PyTorch로 작성된 모델을 TensorFlow로 직접 변환하는 과정을 담고 있어, 각 레이어와 함수가 어떤 역할을 하는지 테스트 시나리오를 통해 명확히 파악할 수 있습니다.
 
 ## [제60회 (2025/02/06)](https://www.meetup.com/awskrug/events/305395195/?eventOrigin=group_events_list)
