@@ -4,6 +4,15 @@
 
 <img src="https://github.com/awskrug/awskrug-digital-assets/blob/master/data/data.png" width="300">
 
+## [제64회 (2025/06/18)](https://www.meetup.com/awskrug/events/308276884)
+HalloSimulation: Gen AI를 활용한 Contact Center IVR 테스트 자동화 - 김기웅 DevOps 컨설턴트, AWS
+이번 세션에서는 Amazon Bedrock, Amazon Connect, Amazon Lex, Amazon Polly, Kinesis Data Streams 사전 정의된 persona로 설정된 LLM이 실제 Contact Center(Amazon Connect)에 전화 통화를 연결하고, IVR 시스템에 대한 적절한 응답을 생성한뒤 이를 음성으로 변환 입력하며 AI간 실시간 음성대화를 주고 받는 프로세스를 자동화한 사례를 살펴봅니다. 이 가상 고객과 AI 상담사 간의 상담 시뮬레이션을 통해 Contact Center를 Amazon Connect를 활용하여 구축하고자 하는 고객은 End-to-end 테스트 자동화, 새로운 IVR 시나리오 제시, IVR 시나리오 평가 및 개선하는 방법에 대한 인사이트를 얻을 수 있습니다.
+
+## [제63회 (2025/05/22)](https://www.meetup.com/awskrug/events/307597172)
+세션명 : Amazon OpenSearch 전환 실무 이야기 - 올리브영의 검색 시스템 전환기
+연사 : 올리브영 박세영
+내용 : 올리브영에서 기존 레거시 검색 시스템을 Amazon OpenSearch로 전환한 경험을 공유합니다. 전환 과정에서 겪었던 몇 가지 기술적 이슈와 그에 대한 해결 과정을 간단히 소개하고자 합니다.
+
 ## [제62회 (2025/04/01)](https://www.meetup.com/awskrug/events/306805701/?eventOrigin=group_events_list)
 Amazon Bedrock을 활용한 운영 환경에서의 서비스 사례를 소개합니다. 사용자 리뷰 작성부터 실시간 검수 결과 반영까지 리뷰 검수 자동화 시스템을 구축하여 운영 효율성을 극대화하고, 사용자 체형 데이터를 기반으로 맞춤형 상품을 추천하여 개인화 경험을 극대화한 사례를 공유합니다.
 Amazon Bedrock으로 만드는 AI 서비스: 검수 자동화부터 맞춤형 추천까지 - 이윤정 데이터 사이언티스트, 카카오스타일, 황윤관 데이터 사이언티스트, 카카오스타일
