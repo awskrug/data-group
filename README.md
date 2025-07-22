@@ -4,6 +4,15 @@
 
 <img src="https://github.com/awskrug/awskrug-digital-assets/blob/master/data/data.png" width="300">
 
+## [제65회 (2025/07/17)](https://www.meetup.com/awskrug/events/308647412)
+커스텀 가드레일로 AI 시스템 보호하기 - Sean Lee 시니어 애플리케이션 아키텍트, AWS
+AI 에이전트가 늘어나고 많은 사람들이 이용할수록 위협도 늘어납니다. 이번 세션에서는 LangGraph으로 커스텀 가드레일을 만들어 다양한 공격유형으로부터 에이전트를 보호하는 법을 알아보도록 하겠습니다.
+- [발표장표](https://www.slideshare.net/secret/Kmy27NGzHKXNqm)
+- [Guardrail 노트북](https://colab.research.google.com/drive/1s5fHU49RvbsKNIPhXUOdy1CVOszWKZPs?usp=sharing)
+- [Phoenix Tracing 데모](https://www.youtube.com/watch?v=kccDcNu1dNI)
+- [Phoenix Eval 데모](https://www.youtube.com/watch?v=4QN0_Xq6cNw&pp=0gcJCcwJAYcqIYzv)
+
+
 ## [제64회 (2025/06/18)](https://www.meetup.com/awskrug/events/308276884)
 HalloSimulation: Gen AI를 활용한 Contact Center IVR 테스트 자동화 - 김기웅 DevOps 컨설턴트, AWS
 이번 세션에서는 Amazon Bedrock, Amazon Connect, Amazon Lex, Amazon Polly, Kinesis Data Streams 사전 정의된 persona로 설정된 LLM이 실제 Contact Center(Amazon Connect)에 전화 통화를 연결하고, IVR 시스템에 대한 적절한 응답을 생성한뒤 이를 음성으로 변환 입력하며 AI간 실시간 음성대화를 주고 받는 프로세스를 자동화한 사례를 살펴봅니다. 이 가상 고객과 AI 상담사 간의 상담 시뮬레이션을 통해 Contact Center를 Amazon Connect를 활용하여 구축하고자 하는 고객은 End-to-end 테스트 자동화, 새로운 IVR 시나리오 제시, IVR 시나리오 평가 및 개선하는 방법에 대한 인사이트를 얻을 수 있습니다.
