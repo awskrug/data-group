@@ -4,6 +4,12 @@
 
 <img src="https://github.com/awskrug/awskrug-digital-assets/blob/master/data/data.png" width="300">
 
+## [제66회 (2025/08/13)](https://www.meetup.com/awskrug/events/310350292)
+ComfyUI on AWS 핸즈온 - 기철민 솔루션즈 아키텍트, AWS
+ComfyUI on AWS를 소개하고 핸즈온 세션을 통해 실습해보는 워크샵입니다.
+ComfyUI의 기본 사용법부터 AWS 환경에서의 구성 방법, 그리고 유용한 팁들을 공유하는 시간을 가집니다.
+https://www.comfy.org/
+
 ## [제65회 (2025/07/17)](https://www.meetup.com/awskrug/events/308647412)
 커스텀 가드레일로 AI 시스템 보호하기 - Sean Lee 시니어 애플리케이션 아키텍트, AWS
 AI 에이전트가 늘어나고 많은 사람들이 이용할수록 위협도 늘어납니다. 이번 세션에서는 LangGraph으로 커스텀 가드레일을 만들어 다양한 공격유형으로부터 에이전트를 보호하는 법을 알아보도록 하겠습니다.
