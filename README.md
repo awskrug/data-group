@@ -4,6 +4,12 @@
 
 <img src="https://github.com/awskrug/awskrug-digital-assets/blob/master/data/data.png" width="300">
 
+
+## [제67회 (2025/09/18)](https://www.meetup.com/awskrug/events/310626090)
+
+[Claude Code 알고 쓰자!](https://www.figma.com/deck/gfjxpJfFMWWdiEIvXIRMYq/Claude-Code) - [최종원 데이터 엔지니어](https://www.linkedin.com/in/jongwon-choi-366b5b111/?originalSubdomain=kr), 딜라이트룸
+Claude Code 창시자의 철학을 따라가보며 내부 동작을 깊이있게 분석했던 사례를 공유합니다.
+
 ## [제66회 (2025/08/13)](https://www.meetup.com/awskrug/events/310350292)
 ComfyUI on AWS 핸즈온 - 기철민 솔루션즈 아키텍트, AWS
 ComfyUI on AWS를 소개하고 핸즈온 세션을 통해 실습해보는 워크샵입니다.
