@@ -8,6 +8,8 @@
 ## [제67회 (2025/09/18)](https://www.meetup.com/awskrug/events/310626090)
 
 [Claude Code 알고 쓰자!](https://www.figma.com/deck/gfjxpJfFMWWdiEIvXIRMYq/Claude-Code) - [최종원 데이터 엔지니어](https://www.linkedin.com/in/jongwon-choi-366b5b111/?originalSubdomain=kr), 딜라이트룸
+
+
 Claude Code 창시자의 철학을 따라가보며 내부 동작을 깊이있게 분석했던 사례를 공유합니다.
 
 ## [제66회 (2025/08/13)](https://www.meetup.com/awskrug/events/310350292)
