@@ -5,6 +5,14 @@
 <img src="https://github.com/awskrug/awskrug-digital-assets/blob/master/data/data.png" width="300">
 
 
+## [제68회 (2026/01/27)](https://www.meetup.com/awskrug/events/312943302/?eventOrigin=attendee_list)
+[re:Invent reCap for Data](https://drive.google.com/file/d/12YhY6X_nMHnkUo-hZs1Ut1X5cutyX_uP/view?usp=drive_link) - [이경희 데이터 엔지니어, GloZ](https://www.linkedin.com/in/winter-lee-7b3970199/) 
+
+
+re:Invent 2025 참관단으로 첫 참가에 대한 전반적인 소회 및 데이터 관련 서비스(S3, Quick Suite, Unified Studio 등)의 업데이트에 대해 가볍게 소개합니다.
+
+
+
 ## [제67회 (2025/09/18)](https://www.meetup.com/awskrug/events/310626090)
 
 [Claude Code 알고 쓰자!](https://www.figma.com/deck/gfjxpJfFMWWdiEIvXIRMYq/Claude-Code) - [최종원 데이터 엔지니어](https://www.linkedin.com/in/jongwon-choi-366b5b111/?originalSubdomain=kr), 딜라이트룸
