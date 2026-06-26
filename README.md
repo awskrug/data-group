@@ -4,6 +4,13 @@
 
 <img src="https://github.com/awskrug/awskrug-digital-assets/blob/master/data/data.png" width="300">
 
+## [제69회 (2026/06/24)](https://www.meetup.com/ko-kr/awskrug/events/314931400/?eventOrigin=group_events_list)
+<img width="600" height="500" alt="IMG_4425" src="https://github.com/user-attachments/assets/655ffc5c-0b77-476d-bd33-aa0b03044e7c" />
+
+[카카오스타일의 데이터브릭스 이관기- 멈추지 않고 갈아타기: Glue부터 Unity Catalog까지](https://drive.google.com/file/d/176EXp1j8nnhJrUL0FVmom5F-0D-4k3r1/view?usp=sharing) - [박지윤 데이터 엔지니어, 카카오스타일](https://www.linkedin.com/in/jiyun-park-b01196261/) 
+
+
+re:Invent 2025 참관단으로 첫 참가에 대한 전반적인 소회 및 데이터 관련 서비스(S3, Quick Suite, Unified Studio 등)의 업데이트에 대해 가볍게 소개합니다.
 
 ## [제68회 (2026/01/27)](https://www.meetup.com/awskrug/events/312943302/?eventOrigin=attendee_list)
 [re:Invent reCap for Data](https://drive.google.com/file/d/12YhY6X_nMHnkUo-hZs1Ut1X5cutyX_uP/view?usp=drive_link) - [이경희 데이터 엔지니어, GloZ](https://www.linkedin.com/in/winter-lee-7b3970199/) 
