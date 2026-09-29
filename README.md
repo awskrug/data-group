@@ -4,6 +4,14 @@
 
 <img src="https://github.com/awskrug/awskrug-digital-assets/blob/master/data/data.png" width="300">
 
+## [제70회 (2026/09/18)](https://www.meetup.com/ko-kr/awskrug/events/316306742/?eventOrigin=group_events_list)
+<img width="450" height="320" alt="IMG_4774 (1)" src="https://github.com/user-attachments/assets/0dfd81ac-1105-40cf-8489-fc9f0f2f4c56" />
+<img width="450" height="320" alt="IMG_4777 (1)" src="https://github.com/user-attachments/assets/27dd0845-00fb-494e-b2dd-5740aaa2f5fe" />
+
+
+1. [Apache Airflow 3.x: 무엇이 달라졌고, 어디로 가고 있는가?](https://drive.google.com/file/d/1_MF8zuADdNf0i3eOuPbCH_auQ35ANQgB/view?usp=drive_link) - [추영욱, 한국 Airflow 사용자모임](https://www.linkedin.com/in/yeonguk-choo/)
+2. [EMR on EKS (w/ Airflow)](https://drive.google.com/file/d/1sJugBDXoaU8LdSmCqNyj4nzrmIuw3Dbh/view?usp=drive_link) - [도정민 머신러닝 엔지니어, 에이블리](https://www.linkedin.com/in/jeongmin-do/)
+
 ## [제69회 (2026/06/24)](https://www.meetup.com/ko-kr/awskrug/events/314931400/?eventOrigin=group_events_list)
 <img width="600" height="500" alt="IMG_4425" src="https://github.com/user-attachments/assets/655ffc5c-0b77-476d-bd33-aa0b03044e7c" />
 
